@@ -1,0 +1,185 @@
+{
+  "site": "SalesDevelopmentRep",
+  "canonicalDomain": "https://salesdevelopmentrep.com",
+  "repository": "coolifystealthagents/sales-development-rep",
+  "branch": "main",
+  "baseSha": "54c6fa52d66d3a0ea1667958281da9873309657b",
+  "publicationDate": "2026-10-12",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17
+  },
+  "registryPaths": [
+    "lib/october12BlogPosts.ts",
+    "lib/october12ResearchPosts.ts",
+    "lib/content.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sidebarPaths": [
+    "app/blog/[slug]/page.tsx",
+    "components/ResearchSidebar.tsx"
+  ],
+  "items": [
+    {
+      "section": "Blog",
+      "slug": "prospect-source-qualification-gate",
+      "title": "Qualify Prospect Sources Before Enrichment",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/prospect-source-qualification-gate.svg",
+      "route": "/blog/prospect-source-qualification-gate"
+    },
+    {
+      "section": "Blog",
+      "slug": "outbound-consent-evidence-register",
+      "title": "Keep Consent Evidence With Every Outbound List",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/outbound-consent-evidence-register.svg",
+      "route": "/blog/outbound-consent-evidence-register"
+    },
+    {
+      "section": "Blog",
+      "slug": "duplicate-prospect-resolution-queue",
+      "title": "Resolve Duplicate Prospects Before Sequencing",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/duplicate-prospect-resolution-queue.svg",
+      "route": "/blog/duplicate-prospect-resolution-queue"
+    },
+    {
+      "section": "Blog",
+      "slug": "lead-status-evidence-rules",
+      "title": "Define Evidence for Every Lead Status",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/lead-status-evidence-rules.svg",
+      "route": "/blog/lead-status-evidence-rules"
+    },
+    {
+      "section": "Blog",
+      "slug": "deliverability-suppression-ledger",
+      "title": "Maintain a Deliverability Suppression Ledger",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/deliverability-suppression-ledger.svg",
+      "route": "/blog/deliverability-suppression-ledger"
+    },
+    {
+      "section": "Blog",
+      "slug": "inbound-reply-intent-routing",
+      "title": "Route Inbound Replies Without Guessing Intent",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/inbound-reply-intent-routing.svg",
+      "route": "/blog/inbound-reply-intent-routing"
+    },
+    {
+      "section": "Blog",
+      "slug": "sales-meeting-handoff-acceptance",
+      "title": "Use an Acceptance Check for Sales Meeting Handoffs",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/sales-meeting-handoff-acceptance.svg",
+      "route": "/blog/sales-meeting-handoff-acceptance"
+    },
+    {
+      "section": "Blog",
+      "slug": "failed-crm-sync-recovery",
+      "title": "Recover Failed CRM Synchronizations Safely",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/failed-crm-sync-recovery.svg",
+      "route": "/blog/failed-crm-sync-recovery"
+    },
+    {
+      "section": "Blog",
+      "slug": "sales-message-approval-versioning",
+      "title": "Version Approved Sales Messages Before Launch",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/sales-message-approval-versioning.svg",
+      "route": "/blog/sales-message-approval-versioning"
+    },
+    {
+      "section": "Blog",
+      "slug": "territory-ownership-collision",
+      "title": "Resolve Territory Ownership Collisions Before Outreach",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/territory-ownership-collision.svg",
+      "route": "/blog/territory-ownership-collision"
+    },
+    {
+      "section": "Blog",
+      "slug": "stale-sales-task-closure",
+      "title": "Close Stale Sales Tasks With Evidence",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/stale-sales-task-closure.svg",
+      "route": "/blog/stale-sales-task-closure"
+    },
+    {
+      "section": "Blog",
+      "slug": "vendor-list-provenance-audit",
+      "title": "Audit the Provenance of Vendor Supplied Prospect Lists",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/vendor-list-provenance-audit.svg",
+      "route": "/blog/vendor-list-provenance-audit"
+    },
+    {
+      "section": "Research",
+      "slug": "prospect-record-source-provenance-completeness-study",
+      "title": "Source Provenance Completeness in Prospect Records",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/prospect-record-source-provenance-completeness-study.svg",
+      "route": "/research/prospect-record-source-provenance-completeness-study"
+    },
+    {
+      "section": "Research",
+      "slug": "crm-import-lead-status-transition-reliability-study",
+      "title": "Reliability of Lead Status Transitions After CRM Imports",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/crm-import-lead-status-transition-reliability-study.svg",
+      "route": "/research/crm-import-lead-status-transition-reliability-study"
+    },
+    {
+      "section": "Research",
+      "slug": "outbound-consent-suppression-continuity-study",
+      "title": "Consent and Suppression Evidence Continuity in Outbound Operations",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/outbound-consent-suppression-continuity-study.svg",
+      "route": "/research/outbound-consent-suppression-continuity-study"
+    },
+    {
+      "section": "Research",
+      "slug": "sales-meeting-handoff-completeness-study",
+      "title": "Meeting Handoff Completeness and Seller Acceptance",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/sales-meeting-handoff-completeness-study.svg",
+      "route": "/research/sales-meeting-handoff-completeness-study"
+    },
+    {
+      "section": "Research",
+      "slug": "duplicate-account-resolution-reviewer-consistency-study",
+      "title": "Reviewer Consistency in Duplicate Account Resolution",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/duplicate-account-resolution-reviewer-consistency-study.svg",
+      "route": "/research/duplicate-account-resolution-reviewer-consistency-study"
+    }
+  ]
+}
