@@ -1,0 +1,186 @@
+{
+  "site": "SalesDevelopmentRep",
+  "canonicalDomain": "https://salesdevelopmentrep.com",
+  "repository": "coolifystealthagents/sales-development-rep",
+  "branch": "main",
+  "baseSha": "c544a16dcf5dcb864c344430700741c395e379c6",
+  "date": "2026-10-13",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17,
+    "thumbnails": 17
+  },
+  "items": [
+    {
+      "kind": "blog",
+      "slug": "webinar-lead-import-authentication",
+      "title": "Authenticate Webinar Lead Imports Before Assignment",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/webinar-lead-import-authentication.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3665,
+      "sha256": "416349d13ee9518de73793842d049991a65758adcf74c10c8dfefa66f37cfa6b"
+    },
+    {
+      "kind": "blog",
+      "slug": "role-based-mailbox-sequence-quarantine",
+      "title": "Quarantine Role-Based Mailboxes Before Sequencing",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/role-based-mailbox-sequence-quarantine.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3593,
+      "sha256": "8fc77302d23f777f2c076be09b7a904955bace6aa62641e3cda4872560bd5588"
+    },
+    {
+      "kind": "blog",
+      "slug": "crm-territory-change-account-ownership",
+      "title": "Verify Account Ownership After a CRM Territory Change",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/crm-territory-change-account-ownership.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3701,
+      "sha256": "62fe077bdd03163811c4e426679f38b5e455880a5067aeb88c7189ca3d200dc9"
+    },
+    {
+      "kind": "blog",
+      "slug": "cross-tool-opt-out-propagation",
+      "title": "Preserve Opt-Out Propagation Across Sales Tools",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/cross-tool-opt-out-propagation.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3641,
+      "sha256": "3390d7d6991c31c3f6decd602bacb6baa4f0e9f53dd434f0fedb9da2f06a71d1"
+    },
+    {
+      "kind": "blog",
+      "slug": "calendar-booking-routing-rule-audit",
+      "title": "Audit Calendar Booking Routing Rules",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/calendar-booking-routing-rule-audit.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3581,
+      "sha256": "8bbdf15df92f6ed78f31dab03ecf2017d3d28a8ea12a275a57c58b8bf7eac56c"
+    },
+    {
+      "kind": "blog",
+      "slug": "conference-badge-scan-notice-evidence",
+      "title": "Reconcile Conference Badge Scans With Notice Evidence",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/conference-badge-scan-notice-evidence.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3677,
+      "sha256": "6145aff53a3a6890091d27f4cfb6854b7b703e6c47c5d31fd8c3337d40e59231"
+    },
+    {
+      "kind": "blog",
+      "slug": "sequence-pause-recovery-log",
+      "title": "Build a Sequence Pause Recovery Log",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/sequence-pause-recovery-log.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3641,
+      "sha256": "0753b8af2c538b95a6e41c341e96b3a1d53617dcd4a11ad71e5e78f8ea3dee75"
+    },
+    {
+      "kind": "blog",
+      "slug": "pricing-question-commercial-handoff",
+      "title": "Route Pricing Questions Without Making Commitments",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/pricing-question-commercial-handoff.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3629,
+      "sha256": "2b0192d573401fad2f176add2e1d38eba35e86d3b210946371f572b4b832cbf5"
+    },
+    {
+      "kind": "blog",
+      "slug": "referral-partner-lead-handoff-validation",
+      "title": "Validate Referral Partner Lead Handoffs",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/referral-partner-lead-handoff-validation.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3581,
+      "sha256": "59e9dd1f781b093c87f7d44e29f018e36ad1fdc38b159a0aeddae12f4fc21aae"
+    },
+    {
+      "kind": "blog",
+      "slug": "stale-opportunity-loss-reason-closure",
+      "title": "Close Stale Opportunities Without Inventing Loss Reasons",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/stale-opportunity-loss-reason-closure.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3677,
+      "sha256": "97d90bc6589face5b993972274d2fae4ac354b5b624d436e2f28ba64f67fe879"
+    },
+    {
+      "kind": "blog",
+      "slug": "call-recording-notice-configuration-audit",
+      "title": "Audit Call Recording Notice Configuration",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/call-recording-notice-configuration-audit.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3593,
+      "sha256": "2849299cd0d18bb7ba8051cd9ec549e20c594582d750c5e1e6d334413ea64ab9"
+    },
+    {
+      "kind": "blog",
+      "slug": "enrichment-vendor-deletion-request-reconciliation",
+      "title": "Reconcile Enrichment Vendor Deletion Requests",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/enrichment-vendor-deletion-request-reconciliation.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3581,
+      "sha256": "271acbbc33527798dea4d1d5fd50fc8aa9a0651625d240a419c9799c4b4eebfe"
+    },
+    {
+      "kind": "research",
+      "slug": "meeting-show-rate-denominator-sensitivity-study",
+      "title": "Meeting Show Rate Denominator Sensitivity Study",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/meeting-show-rate-denominator-sensitivity-study.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3737,
+      "sha256": "c29a95200fe4614341a578b7e4aa4ec1f66ba724a6db565e838e5cc693af9f53"
+    },
+    {
+      "kind": "research",
+      "slug": "suppression-propagation-delay-study",
+      "title": "Outreach Suppression Propagation Delay Study",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/suppression-propagation-delay-study.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3710,
+      "sha256": "c9772eaed9a57b3519d0264f4bfd522b78a6d39848a4497675fc14006ef2092a"
+    },
+    {
+      "kind": "research",
+      "slug": "lead-routing-reviewer-agreement-study",
+      "title": "Lead Routing Reviewer Agreement Study",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/lead-routing-reviewer-agreement-study.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3736,
+      "sha256": "c0aa9d19aa2b620a82b0582e3c7324f97b3643e3d40ccc91ea75990e4f8ac812"
+    },
+    {
+      "kind": "research",
+      "slug": "reply-classification-drift-study",
+      "title": "Reply Classification Drift Study",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/reply-classification-drift-study.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3644,
+      "sha256": "715dff7ce746008aae0a8eae3cb054ce7d19a265a9457acccf8ef5e6e0ab1849"
+    },
+    {
+      "kind": "research",
+      "slug": "account-research-source-decay-study",
+      "title": "Account Research Source Decay Study",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/account-research-source-decay-study.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3723,
+      "sha256": "c43aff6cd382f8aaecb66f302ff16b10ee0c1099d0520c1869462d7a1e0aa1ee"
+    }
+  ]
+}
