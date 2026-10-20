@@ -1,108 +1,107 @@
 import type { SiteConfig } from './types';
+
 export const site: SiteConfig = {
-  "name": "Sales Development Rep",
-  "domain": "salesdevelopmentrep.com",
-  "siteId": "sales-development-rep",
-  "niche": "sales development teams",
-  "audience": "founders, revenue leaders, and sales development managers",
-  "design": "kinetic",
-  "eyebrow": "The operating layer behind better outreach",
-  "hero": "Give every prospecting motion",
-  "heroAccent": "a clear next beat.",
-  "heroBody": "Specialist remote sales development support keeps prospect research, list preparation, CRM records, meeting coordination, and approved sequences moving while sellers own the conversation.",
-  "manifesto": "Good prospecting is relevant context delivered with disciplined follow through.",
-  "primary": "#ef493f",
-  "secondary": "#ffb16b",
-  "accent": "#ffe454",
-  "canvas": "#fff8f1",
-  "ink": "#1c1820",
-  "displayFont": "Franklin Gothic Medium",
-  "bodyFont": "Verdana",
-  "heroImage": "/hero.png",
-  "heroAlt": "Red beacon connecting blank prospect cards and contact nodes in a kinetic outreach network",
-  "services": [
+  name: 'Sales Development Rep',
+  domain: 'salesdevelopmentrep.com',
+  siteId: 'sales-development-rep',
+  niche: 'sales development operations',
+  audience: 'founders, revenue leaders, and sales development managers',
+  design: 'kinetic',
+  eyebrow: 'A field desk for disciplined prospecting',
+  hero: 'Keep the pipeline moving',
+  heroAccent: 'without blurring ownership.',
+  heroBody: 'Build specialist remote support around prospect research, list quality, approved outreach, CRM records, meeting handoffs, and sequence review.',
+  manifesto: 'Useful sales development support makes context visible before the conversation begins.',
+  primary: '#c43a31', secondary: '#f5a15d', accent: '#f4d54b', canvas: '#fff8ee', ink: '#17171b',
+  displayFont: 'Arial Black', bodyFont: 'Arial', heroImage: '/hero.png',
+  heroAlt: 'A sales development signal desk connecting prospect records, review gates, and qualified conversations',
+  services: [
     {
-      "slug": "prospect-research",
-      "name": "Prospect research",
-      "short": "Prepare focused account and contact context from approved sources.",
-      "tasks": [
-        "Research approved fields",
-        "Document source links",
-        "Prepare account briefs",
-        "Flag uncertain records"
-      ]
+      slug: 'prospect-research', name: 'Prospect research', short: 'Prepare account and contact context from approved sources before sellers engage.',
+      audience: 'Teams whose sellers lose conversation time gathering basic account, role, event, and source context.',
+      problem: 'Research becomes unreliable when every seller uses a different source set, copies unsupported assumptions, or cannot distinguish verified facts from unknowns.',
+      inputs: ['Approved account and contact criteria', 'Permitted public and licensed sources', 'Required CRM fields and source-note format', 'Exclusion, suppression, and escalation rules'],
+      tasks: ['Research authorized account and contact fields', 'Record source links and observation dates', 'Prepare concise account briefs for seller review', 'Flag uncertainty, conflicts, and missing evidence'],
+      workflow: ['Receive a bounded queue and current targeting rules.', 'Check each required field against approved sources.', 'Separate observed facts from interpretations and unknowns.', 'Return a review-ready brief with sources and exceptions.'],
+      deliverables: ['Source-linked prospect records', 'Account and contact context briefs', 'Missing-data and conflict queue', 'Research completion summary'],
+      boundaries: ['Target selection and qualification decisions remain with revenue leadership.', 'No invented details, identity misrepresentation, or unapproved data sourcing.', 'Consent, lawful basis, privacy, and suppression policy remain organizational responsibilities.'],
+      qualityControls: ['Required-field completeness sample', 'Source recency and provenance check', 'Unknown-state preservation', 'Manager review of high-risk exceptions'],
+      scenarios: [{ title: 'New-market preparation', body: 'A manager defines industries, roles, exclusions, and required evidence. The assistant prepares a small sourced list for review before volume expands.' }, { title: 'Account brief refresh', body: 'The assistant rechecks dated facts before an important conversation and leaves uncertain findings explicitly unresolved.' }],
+      faq: [{ q: 'Can the researcher decide whether an account is qualified?', a: 'The assistant can apply documented criteria and flag evidence. The accountable sales owner makes the final qualification decision.' }, { q: 'What should every record preserve?', a: 'Preserve the source, observation date, required fields, unresolved questions, and the next review owner.' }],
+      related: ['list-building-enrichment', 'crm-hygiene'], visual: { intake: 'TARGET RULES', process: 'SOURCE CHECK', output: 'ACCOUNT BRIEF' }
     },
     {
-      "slug": "list-building-enrichment",
-      "name": "List building and enrichment",
-      "short": "Build reviewable prospect lists without sacrificing source quality.",
-      "tasks": [
-        "Prepare target records",
-        "Check required criteria",
-        "Remove approved exclusions",
-        "Flag missing information"
-      ]
+      slug: 'list-building-enrichment', name: 'List building and enrichment', short: 'Build reviewable prospect lists with explicit sources, exclusions, and acceptance rules.',
+      audience: 'Revenue teams that need consistent prospect records without giving up source provenance or suppression controls.',
+      problem: 'A list is not useful when fields are inconsistent, provenance is missing, duplicate accounts remain, or exclusions are applied only after outreach starts.',
+      inputs: ['Ideal-customer and role criteria', 'Approved enrichment sources', 'Required field dictionary', 'Suppression and duplicate rules'],
+      tasks: ['Prepare account and contact records', 'Normalize authorized fields', 'Check duplicates and approved exclusions', 'Route ambiguous records for review'],
+      workflow: ['Translate criteria into a written acceptance checklist.', 'Prepare a bounded list from approved sources.', 'Run duplicate, exclusion, and required-field checks.', 'Deliver accepted records and a separate exception queue.'],
+      deliverables: ['Review-ready prospect list', 'Source and freshness fields', 'Duplicate-resolution queue', 'Exclusion and exception log'],
+      boundaries: ['No purchase or use of unapproved data.', 'No bypass of opt-out, suppression, or territory rules.', 'Final market and account approval stays with the revenue owner.'],
+      qualityControls: ['Sample source verification', 'Duplicate and domain normalization checks', 'Suppression reconciliation', 'Acceptance and rejection reason review'],
+      scenarios: [{ title: 'Campaign list preparation', body: 'The team provides a target definition and suppression file. The assistant returns a review batch before any sequence enrollment.' }, { title: 'Legacy-list repair', body: 'Existing records are normalized, deduplicated, and separated into accepted, rejected, and needs-review lanes.' }],
+      faq: [{ q: 'Can the role source any available contact data?', a: 'No. Sources and permitted fields must be approved by the organization before work begins.' }, { q: 'How should uncertain records be handled?', a: 'Keep them out of the accepted list and route them with the missing evidence or conflict clearly identified.' }],
+      related: ['prospect-research', 'outreach-operations'], visual: { intake: 'TARGET FILTER', process: 'LIST CONTROL', output: 'CLEAN QUEUE' }
     },
     {
-      "slug": "outreach-operations",
-      "name": "Outreach operations support",
-      "short": "Maintain approved sequences, task queues, and response routing.",
-      "tasks": [
-        "Prepare sequence records",
-        "Track task status",
-        "Route prospect replies",
-        "Escalate sensitive responses"
-      ]
+      slug: 'outreach-operations', name: 'Outreach operations support', short: 'Maintain approved sequences, task queues, and response routing without transferring commercial authority.',
+      audience: 'Teams with approved outreach motions that need reliable queue maintenance, status visibility, and response handoffs.',
+      problem: 'Sequence work breaks when enrollment rules drift, replies sit unclassified, task ownership is unclear, or sensitive responses are handled without an accountable owner.',
+      inputs: ['Approved messaging and sequence versions', 'Enrollment and exclusion rules', 'Reply-routing taxonomy', 'Escalation owners and service levels'],
+      tasks: ['Prepare sequence records and task queues', 'Apply approved enrollment checks', 'Route replies by documented categories', 'Pause and escalate sensitive or unclear responses'],
+      workflow: ['Confirm the approved campaign version and eligible queue.', 'Check required data and exclusions before enrollment.', 'Monitor operational status and route responses.', 'Record handoff, owner, and unresolved exceptions.'],
+      deliverables: ['Prepared sequence queue', 'Enrollment check record', 'Reply-routing and escalation log', 'Daily operational status summary'],
+      boundaries: ['No unapproved copy changes or identity claims.', 'No legal, compliance, pricing, or commercial commitments.', 'Consent and channel authorization remain with the organization.'],
+      qualityControls: ['Message-version check', 'Pre-enrollment exclusion sample', 'Reply-routing review', 'Pause and escalation reconciliation'],
+      scenarios: [{ title: 'Approved sequence launch', body: 'The assistant checks eligibility and required fields before routing the final enrollment batch to the campaign owner.' }, { title: 'Sensitive reply received', body: 'The sequence is paused and the response is routed to the named owner rather than answered outside the approved playbook.' }],
+      faq: [{ q: 'Can the assistant write and send any response?', a: 'Only approved messages inside a documented authority boundary. Sensitive, novel, or commercial replies go to the accountable owner.' }, { q: 'Who owns consent decisions?', a: 'The organization owns lawful basis, consent, channel rules, suppression, and recordkeeping.' }],
+      related: ['sequence-quality-review', 'meeting-coordination'], visual: { intake: 'APPROVED QUEUE', process: 'ROUTE REPLIES', output: 'OWNER HANDOFF' }
     },
     {
-      "slug": "crm-hygiene",
-      "name": "CRM hygiene",
-      "short": "Keep ownership, activity, and next steps accurate enough to trust.",
-      "tasks": [
-        "Update approved fields",
-        "Check duplicate records",
-        "Prepare hygiene queues",
-        "Flag stale opportunities"
-      ]
+      slug: 'crm-hygiene', name: 'CRM hygiene', short: 'Keep ownership, activity, evidence, and next steps accurate enough for the team to trust.',
+      audience: 'Sales and revenue operations teams dealing with stale fields, duplicate records, ambiguous ownership, or incomplete activity context.',
+      problem: 'Pipeline reviews lose value when statuses cannot be traced to evidence, ownership is stale, duplicates split context, and next actions live outside the system of record.',
+      inputs: ['CRM field and status definitions', 'Ownership and territory rules', 'Duplicate-resolution policy', 'Authorized source systems'],
+      tasks: ['Update approved fields from documented evidence', 'Prepare duplicate and stale-record queues', 'Reconcile ownership changes', 'Flag unsupported status or next-step claims'],
+      workflow: ['Select one hygiene rule and a bounded record sample.', 'Compare CRM values with authorized evidence.', 'Apply low-risk documented updates and queue judgment calls.', 'Report recurring causes and unresolved ownership issues.'],
+      deliverables: ['Reviewed CRM record batch', 'Duplicate and stale-record queue', 'Ownership exception report', 'Field-quality trend summary'],
+      boundaries: ['No deletion, merge, or stage change without the required approval.', 'No inferred status presented as verified fact.', 'Forecasting and opportunity judgment stay with sales leadership.'],
+      qualityControls: ['Before-and-after field sample', 'Duplicate merge approval check', 'Ownership-rule reconciliation', 'Unsupported-status audit'],
+      scenarios: [{ title: 'Territory change', body: 'The assistant prepares ownership updates from the approved mapping and routes conflicts rather than choosing between competing rules.' }, { title: 'Stale next steps', body: 'Records without supporting activity are flagged for seller review instead of being silently advanced or closed.' }],
+      faq: [{ q: 'Can the assistant merge duplicates?', a: 'Only under the organization’s documented policy and approval requirements. Ambiguous merges need an owner decision.' }, { q: 'What is a safe starting scope?', a: 'Begin with one field family or one stale-record rule in a small, reviewable batch.' }],
+      related: ['prospect-research', 'sequence-quality-review'], visual: { intake: 'CRM RECORDS', process: 'EVIDENCE TEST', output: 'TRUSTED STATE' }
     },
     {
-      "slug": "meeting-coordination",
-      "name": "Meeting coordination",
-      "short": "Handle the scheduling and context around qualified conversations.",
-      "tasks": [
-        "Coordinate calendars",
-        "Prepare meeting briefs",
-        "Send approved reminders",
-        "Record scheduling outcomes"
-      ]
+      slug: 'meeting-coordination', name: 'Meeting coordination', short: 'Coordinate calendars and preserve the context around qualified conversations.',
+      audience: 'Sales teams that need consistent scheduling, reminders, ownership, and meeting context across handoffs.',
+      problem: 'Qualified conversations are weakened when calendar ownership is unclear, required context is missing, reminders use the wrong message, or outcomes never return to the CRM.',
+      inputs: ['Approved scheduling rules and calendars', 'Required meeting context', 'Reminder and rescheduling templates', 'No-show and escalation playbook'],
+      tasks: ['Coordinate available times', 'Prepare meeting briefs', 'Send approved reminders and rescheduling messages', 'Record scheduling and attendance outcomes'],
+      workflow: ['Confirm qualification and the correct meeting owner.', 'Offer approved availability using the defined calendar path.', 'Prepare the context brief and approved reminders.', 'Record outcomes and route no-shows or conflicts.'],
+      deliverables: ['Confirmed calendar event', 'Seller meeting brief', 'Reminder and rescheduling record', 'Outcome and exception update'],
+      boundaries: ['No promises about pricing, fit, availability, or outcomes.', 'No qualification override or calendar access beyond the approved scope.', 'Commercial decisions remain with the meeting owner.'],
+      qualityControls: ['Owner and timezone verification', 'Required-context checklist', 'Reminder-template check', 'Outcome reconciliation'],
+      scenarios: [{ title: 'Multi-owner routing', body: 'The assistant applies the approved territory and availability rules, then escalates collisions rather than choosing an owner informally.' }, { title: 'No-show recovery', body: 'The approved recovery message is sent and the result is recorded without changing opportunity status beyond the rule.' }],
+      faq: [{ q: 'Can the coordinator decide who is qualified?', a: 'No. The role can check required fields and route according to rules, while the sales owner controls qualification.' }, { q: 'What belongs in the meeting brief?', a: 'Include verified account context, stated need, source links, prior interactions, open questions, and the responsible owner.' }],
+      related: ['outreach-operations', 'crm-hygiene'], visual: { intake: 'QUALIFIED REPLY', process: 'CALENDAR RULES', output: 'MEETING BRIEF' }
     },
     {
-      "slug": "sequence-quality-review",
-      "name": "Sequence quality review",
-      "short": "Prepare checks that help managers inspect outreach operations.",
-      "tasks": [
-        "Review required fields",
-        "Check approved copy versions",
-        "Prepare sample records",
-        "Document exception patterns"
-      ]
+      slug: 'sequence-quality-review', name: 'Sequence quality review', short: 'Inspect approved sequence operations for version, data, suppression, and handoff defects.',
+      audience: 'Managers who need a repeatable way to inspect outreach setup and exception patterns before they become widespread.',
+      problem: 'Quality review fails when it measures activity alone, samples inconsistently, or cannot trace an enrollment, message version, pause, or handoff back to evidence.',
+      inputs: ['Current approved sequence inventory', 'Quality and compliance checklist', 'Enrollment and suppression evidence', 'Sampling method and review owner'],
+      tasks: ['Review required setup fields', 'Check message and rule versions', 'Sample enrollment and reply-routing records', 'Document defect and exception patterns'],
+      workflow: ['Define the review population and sampling rule.', 'Inspect setup, provenance, exclusions, and handoffs.', 'Separate isolated errors from recurring control failures.', 'Return findings to the accountable owner with corrective actions.'],
+      deliverables: ['Completed review sample', 'Defect and exception register', 'Version and suppression findings', 'Corrective-action brief'],
+      boundaries: ['The reviewer does not rewrite policy or approve legal conclusions.', 'Finding a defect does not authorize silent production changes.', 'The accountable owner accepts changes and residual risk.'],
+      qualityControls: ['Stable sampling rule', 'Reviewer evidence links', 'Defect-severity definition', 'Correction verification sample'],
+      scenarios: [{ title: 'Pre-launch review', body: 'A bounded sample checks approved copy, required data, exclusions, routing, and owners before activation.' }, { title: 'Pattern investigation', body: 'Repeated routing errors are traced to a rule or training gap, then rechecked after the owner approves a correction.' }],
+      faq: [{ q: 'Is this a legal compliance audit?', a: 'No. It is an operational quality review. Qualified legal and compliance owners interpret obligations and approve policy.' }, { q: 'How large should the first sample be?', a: 'Use a bounded sample large enough to expose the workflow and exceptions, then let the accountable owner set ongoing review frequency.' }],
+      related: ['outreach-operations', 'crm-hygiene'], visual: { intake: 'LIVE SAMPLE', process: 'CONTROL REVIEW', output: 'FINDINGS LOG' }
     }
   ],
-  "categories": [
-    "Prospecting systems",
-    "Outreach operations",
-    "CRM quality",
-    "Role design"
-  ],
-  "principles": [
-    "Top 1 percent selectivity",
-    "Clear role boundaries",
-    "Reviewable workflows"
-  ],
-  "sources": [
-    {
-      "label": "Federal Trade Commission",
-      "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"
-    }
-  ]
+  categories: ['Prospecting systems', 'Outreach operations', 'CRM quality', 'Role design'],
+  principles: ['Source-linked context', 'Explicit owner boundaries', 'Reviewable handoffs'],
+  sources: [{ label: 'Federal Trade Commission', url: 'https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule' }]
 };

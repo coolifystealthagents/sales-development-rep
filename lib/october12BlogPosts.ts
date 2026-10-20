@@ -430,7 +430,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "Completion requires a recorded disposition, owner, evidence trail, and reconciliation of any temporary or conflicting state."
       }
     ],
-    "internalService": "/services/outreach-operations-support",
+    "internalService": "/services/outreach-operations",
     "internalSibling": "/blog/inbound-reply-intent-routing",
     "source": {
       "label": "FCC: Telephone Consumer Protection Act rules",
@@ -517,7 +517,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "Completion requires a recorded disposition, owner, evidence trail, and reconciliation of any temporary or conflicting state."
       }
     ],
-    "internalService": "/services/outreach-operations-support",
+    "internalService": "/services/outreach-operations",
     "internalSibling": "/blog/sales-meeting-handoff-acceptance",
     "source": {
       "label": "NIST Privacy Framework",
