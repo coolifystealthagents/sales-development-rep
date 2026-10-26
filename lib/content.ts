@@ -4,7 +4,8 @@ import { october12BlogPosts } from './october12BlogPosts';
 import { october12ResearchPosts } from './october12ResearchPosts';
 import { october13BlogPosts } from './october13BlogPosts';
 import { october13ResearchPosts } from './october13ResearchPosts';
-import { october25BlogBatch, october25ResearchBatch } from './october25Batch';
+import { october25BlogBatch } from './october25Blog';
+import { october25ResearchBatch } from './october25Research';
 import { october22BlogBatch, october22ResearchBatch } from './october22Batch';
 
 const existingBlogPosts: BlogPost[] = [
