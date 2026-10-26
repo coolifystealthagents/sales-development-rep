@@ -13,7 +13,7 @@ export const october26BlogBatch: readonly BlogPost[] = [
         "heading": "The control this lead intake needs",
         "paragraphs": [
           "A busy sales development team can look productive while the lead intake record is too thin to defend. The control starts with one question: can a second person reconstruct who asked, what source was used, who decided, and what changed?",
-          "If the answer is no, the work is not complete. The team may still be helpful, but it cannot show that the action was authorized or that the destination record was updated.",
+          "The control that matters for the \"the control this lead intake needs\" section is a short, reviewable record, not a longer checklist. The SDR support specialist captures cadence step and next date and meeting owner and attendees, labels a case involving qualification changes after a reply, and leaves the decision with the sales development manager. During the weekly review, compare duplicate prospects per account with the unresolved items and note which fix changed the result.",
           "Write the control as a short operating rule for B2B sales leaders, not as a general plea for better documentation.",
           "Do not copy a value because it looks familiar. Reopen the source and record what changed. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake.",
           "Use a short reason code for each exception. The code should describe the evidence problem, not the person. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake.",
@@ -24,8 +24,8 @@ export const october26BlogBatch: readonly BlogPost[] = [
         "heading": "Map the source before the task",
         "paragraphs": [
           "Name the system or document that governs lead intake. Record the version, the observation time, and the field the source supports.",
-          "Do not treat a screenshot, a forwarded note, or a verbal confirmation as the record itself. These can be leads, but the owner still needs the governing source.",
-          "When sources conflict, keep both and label the conflict. A clean summary that hides a disagreement is worse than an honest exception.",
+          "For the \"map the source before the task\" section, define the stopping condition before the SDR support specialist starts the task. The prospect research note should show meeting owner and attendees, account and contact identifier, and the evidence that let the sales development manager accept the result. If the item involves meeting request falls outside the ideal customer profile, document the reason and route the decision to marketing operations; a reopened item needs a new dated action, not a copied closure note.",
+          "Ask what would let a new reviewer continue the \"map the source before the task\" work without a conversation. The answer is usually a qualification record with the source, version, owner, and next action. If the item involves qualification changes after a reply, the SDR support specialist pauses the item, records the gap, and routes one question to marketing operations; do not close the item just to keep the queue moving.",
           "Close the loop with the requester. Internal completeness without confirmation is only half closed. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake.",
           "Review one lead intake case end to end in the weekly meeting. Check the source, decision, destination record, and confirmation.",
           "Write the next action with an owner and a time. \"Review the exception\" is not a next action; a named person checking a named source by a stated time is. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake."
@@ -34,9 +34,9 @@ export const october26BlogBatch: readonly BlogPost[] = [
       {
         "heading": "Make decision rights explicit",
         "paragraphs": [
-          "The VA can prepare, compare, label, calculate, and route. The named owner decides whether the evidence is enough and what the customer or employee is told.",
-          "Write the boundary into the task, including the systems the VA may touch and the fields they may change.",
-          "A complete packet is not approval. The owner decision should be visible in the record, with a time and a scope.",
+          "In practice, the SDR support specialist handles the \"make decision rights explicit\" work by preparing a qualification record and naming the decision boundary. Include the source and retrieval date, source and consent status, and the next action owner. When the item involves meeting request falls outside the ideal customer profile, the item goes to marketing operations with the evidence already checked; the prospect, cadence, and meeting-handoff queue should show the hold, not hide it.",
+          "For the \"make decision rights explicit\" section, define the stopping condition before the SDR support specialist starts the task. The cadence activity log should show meeting owner and attendees, account and contact identifier, and the evidence that let the sales development manager accept the result. If the item involves contact consent conflicts with the cadence, document the reason and route the decision to the sales development manager; a reopened item needs a new dated action, not a copied closure note.",
+          "The prospect, cadence, and meeting-handoff queue in sales development and outbound qualification usually fails at the handoff, not at the first task. For the \"make decision rights explicit\" section, the SDR support specialist should capture the source, the version, the accountable sales development manager, and the next review date in a meeting handoff brief. If the item involves meeting request falls outside the ideal customer profile, route it to marketing operations and keep the exception reason attached so a later reviewer can see why the normal path did not apply.",
           "Record the lead intake source and observation time. A later reviewer should be able to tell whether the value was current when the first action was taken. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake.",
           "If the rule changes, keep the earlier classification and apply the new rule to later cases. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake.",
           "Keep the lead intake queue separate from the general inbox. A queue without an owner hides the oldest item."
@@ -46,8 +46,8 @@ export const october26BlogBatch: readonly BlogPost[] = [
         "heading": "Build a repeatable daily routine",
         "paragraphs": [
           "Start the day by opening the lead intake queue and checking the oldest item. Work from the source, not from the previous summary.",
-          "Record the exception, the next action, the owner, and the due time before moving on. A note without a due time is not a handoff.",
-          "End the day by reconciling the queue. Explain what remains open and who owns the next check.",
+          "The control that matters for the \"build a repeatable daily routine\" section is a short, reviewable record, not a longer checklist. The SDR support specialist captures qualification evidence and cadence step and next date, labels a case involving contact consent conflicts with the cadence, and leaves the decision with the sales development manager. During the weekly review, compare prospects with a complete research note with the unresolved items and note which fix changed the result.",
+          "Ask what would let a new reviewer continue the \"build a repeatable daily routine\" work without a conversation. The answer is usually a qualification record with the source, version, owner, and next action. If the item involves account is owned by another rep, the SDR support specialist pauses the item, records the gap, and routes one question to the compliance reviewer; do not close the item just to keep the queue moving.",
           "Write the next action with an owner and a time. \"Review the exception\" is not a next action; a named person checking a named source by a stated time is. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake.",
           "Name a backup owner for leave and time-zone gaps. Coverage should be written into the routine. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake."
         ]
@@ -55,9 +55,9 @@ export const october26BlogBatch: readonly BlogPost[] = [
       {
         "heading": "Recover cleanly when the control fails",
         "paragraphs": [
-          "Define a recovery path for missing sources, wrong owners, stale versions, and partial updates. The path should stop dependent work until the record is safe.",
-          "Preserve the original request and the correction. Do not overwrite the first value to make the history look consistent.",
-          "If the failure affects pay, safety, access, legal, or a customer promise, route it to the owner immediately.",
+          "A useful test for the \"recover cleanly when the control fails\" control is whether a qualification record still makes sense after a week away. The SDR support specialist records meeting owner and attendees and account and contact identifier, then checks one high-value case and one exception during the weekly review. When the item involves qualification changes after a reply, the item stays open with a named owner and a dated next action rather than being marked complete.",
+          "Concrete example: a prospect is added to a cadence after an opt-out in another tool. The SDR support specialist opens a cadence activity log, records meeting owner and attendees and qualification evidence, and asks one precise question instead of filling the blank from memory. The item leaves the prospect, cadence, and meeting-handoff queue only after the sales development manager accepts the next action and the evidence link is attached.",
+          "Treat the \"recover cleanly when the control fails\" control as an evidence problem before treating it as a speed problem. The SDR support specialist can prepare a meeting handoff brief, but the sales development manager keeps the decision when the item involves contact consent conflicts with the cadence. Record meetings accepted by the account executive with its denominator and window, then use the weekly sample to check whether the same gap keeps returning.",
           "Keep the lead intake queue separate from the general inbox. A queue without an owner hides the oldest item. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake.",
           "Do not copy a value because it looks familiar. Reopen the source and record what changed. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake."
         ]
@@ -66,8 +66,8 @@ export const october26BlogBatch: readonly BlogPost[] = [
         "heading": "Verify, review, and improve",
         "paragraphs": [
           "Close lead intake only when the destination record shows the approved change. A sent message is not proof that the destination changed.",
-          "Review one case end to end each week. Check the source, the decision, the update, and the confirmation.",
-          "A repeated gap should change the procedure, the field, or the queue design, not only the coaching.",
+          "The prospect research note is useful for the \"verify, review, and improve\" control only if another person can audit it. The SDR support specialist records source and consent status and qualification evidence, keeps the source attached, and marks a case involving account is owned by another rep with the owner who accepted it. Review prospects with a complete research note during the weekly check and test one recent correction against the original evidence.",
+          "A useful test for the \"verify, review, and improve\" control is whether a prospect research note still makes sense after a week away. The SDR support specialist records meeting owner and attendees and qualification evidence, then checks one high-value case and one exception during the weekly review. When the item involves meeting request falls outside the ideal customer profile, the item stays open with a named owner and a dated next action rather than being marked complete.",
           "When evidence is unavailable, record that state instead of leaving a blank. Missing and confirmed negative are different. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake.",
           "Close the loop with the requester. Internal completeness without confirmation is only half closed. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake."
         ]
@@ -97,7 +97,7 @@ export const october26BlogBatch: readonly BlogPost[] = [
       {
         "heading": "Map the source before the task",
         "paragraphs": [
-          "Name the system or document that governs CRM hygiene. Record the version, the observation time, and the field the source supports.",
+          "The meeting handoff brief is useful for the \"map the source before the task\" control only if another person can audit it. The SDR support specialist records cadence step and next date and source and consent status, keeps the source attached, and marks a case involving meeting request falls outside the ideal customer profile with the owner who accepted it. Review duplicate prospects per account during the weekly check and test one recent correction against the original evidence.",
           "Do not treat a screenshot, a forwarded note, or a verbal confirmation as the record itself. These can be leads, but the owner still needs the governing source. This applies to salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene.",
           "When sources conflict, keep both and label the conflict. A clean summary that hides a disagreement is worse than an honest exception. This applies to salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene.",
           "When evidence is unavailable, record that state instead of leaving a blank. Missing and confirmed negative are different. This applies to salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene.",
@@ -119,7 +119,7 @@ export const october26BlogBatch: readonly BlogPost[] = [
       {
         "heading": "Build a repeatable daily routine",
         "paragraphs": [
-          "Start the day by opening the CRM hygiene queue and checking the oldest item. Work from the source, not from the previous summary.",
+          "The \"build a repeatable daily routine\" control becomes fragile when the prospect, cadence, and meeting-handoff queue is measured only by completed items. The SDR support specialist should record source and consent status and qualification evidence, keep exceptions visible, and let the sales development manager decide any commitment or scope change. Marketing operations can then sample a meeting handoff brief and compare meetings accepted by the account executive against the work that remains open.",
           "Record the exception, the next action, the owner, and the due time before moving on. A note without a due time is not a handoff. This applies to salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene.",
           "End the day by reconciling the queue. Explain what remains open and who owns the next check. This applies to salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene.",
           "Review one CRM hygiene case end to end in the weekly meeting. Check the source, decision, destination record, and confirmation. This applies to salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene.",
@@ -140,7 +140,7 @@ export const october26BlogBatch: readonly BlogPost[] = [
       {
         "heading": "Verify, review, and improve",
         "paragraphs": [
-          "Close CRM hygiene only when the destination record shows the approved change. A sent message is not proof that the destination changed.",
+          "The prospect, cadence, and meeting-handoff queue in sales development and outbound qualification usually fails at the handoff, not at the first task. For the \"verify, review, and improve\" section, the SDR support specialist should capture the source, the version, the accountable sales development manager, and the next review date in a prospect research note. If the item involves qualification changes after a reply, route it to the compliance reviewer and keep the exception reason attached so a later reviewer can see why the normal path did not apply.",
           "Review one case end to end each week. Check the source, the decision, the update, and the confirmation. This applies to salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene.",
           "A repeated gap should change the procedure, the field, or the queue design, not only the coaching. This applies to salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene.",
           "Name a backup owner for leave and time-zone gaps. Coverage should be written into the routine. This applies to salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene.",
