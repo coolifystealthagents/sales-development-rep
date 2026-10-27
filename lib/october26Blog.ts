@@ -72,7 +72,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "Close the loop with the requester. Internal completeness without confirmation is only half closed. This applies to salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for build a first-week shadow plan for lead intake?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in build a first-week shadow plan for lead intake?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review build a first-week shadow plan for lead intake?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene",
+    "source": {
+      "label": "FTC CAN-SPAM compliance guide",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+    }
   },
   {
     "slug": "salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene",
@@ -147,7 +167,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "When evidence is unavailable, record that state instead of leaving a blank. Missing and confirmed negative are different. This applies to salesdevelopmentrep-build-a-two-person-verification-step-for-crm-hygiene."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for build a two-person verification step for crm hygiene?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in build a two-person verification step for crm hygiene?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review build a two-person verification step for crm hygiene?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-create-a-recovery-checklist-for-sequence-approval",
+    "source": {
+      "label": "FTC privacy and security guidance",
+      "url": "https://www.ftc.gov/business-guidance/privacy-security"
+    }
   },
   {
     "slug": "salesdevelopmentrep-create-a-recovery-checklist-for-sequence-approval",
@@ -222,7 +262,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "Use a short reason code for each exception. The code should describe the evidence problem, not the person. This applies to salesdevelopmentrep-create-a-recovery-checklist-for-sequence-approval."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for create a recovery checklist for sequence approval?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in create a recovery checklist for sequence approval?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review create a recovery checklist for sequence approval?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-define-a-stop-work-trigger-for-opt-out-record",
+    "source": {
+      "label": "SBA sales and marketing guidance",
+      "url": "https://www.sba.gov/business-guide/grow-your-business/sales-marketing"
+    }
   },
   {
     "slug": "salesdevelopmentrep-define-a-stop-work-trigger-for-opt-out-record",
@@ -296,7 +356,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "Do not copy a value because it looks familiar. Reopen the source and record what changed. This applies to salesdevelopmentrep-define-a-stop-work-trigger-for-opt-out-record."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for define a stop-work trigger for opt-out record?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in define a stop-work trigger for opt-out record?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review define a stop-work trigger for opt-out record?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-define-the-minimum-evidence-for-crm-hygiene",
+    "source": {
+      "label": "FTC CAN-SPAM compliance guide",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+    }
   },
   {
     "slug": "salesdevelopmentrep-define-the-minimum-evidence-for-crm-hygiene",
@@ -369,7 +449,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "Write the next action with an owner and a time. \"Review the exception\" is not a next action; a named person checking a named source by a stated time is. This applies to salesdevelopmentrep-define-the-minimum-evidence-for-crm-hygiene."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for define the minimum evidence for crm hygiene?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in define the minimum evidence for crm hygiene?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review define the minimum evidence for crm hygiene?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-design-a-daily-control-board-for-lead-intake",
+    "source": {
+      "label": "FTC privacy and security guidance",
+      "url": "https://www.ftc.gov/business-guidance/privacy-security"
+    }
   },
   {
     "slug": "salesdevelopmentrep-design-a-daily-control-board-for-lead-intake",
@@ -442,7 +542,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "Write the next action with an owner and a time. \"Review the exception\" is not a next action; a named person checking a named source by a stated time is. This applies to salesdevelopmentrep-design-a-daily-control-board-for-lead-intake."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for design a daily control board for lead intake?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in design a daily control board for lead intake?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review design a daily control board for lead intake?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-keep-a-correction-log-for-account-research",
+    "source": {
+      "label": "SBA sales and marketing guidance",
+      "url": "https://www.sba.gov/business-guide/grow-your-business/sales-marketing"
+    }
   },
   {
     "slug": "salesdevelopmentrep-keep-a-correction-log-for-account-research",
@@ -516,7 +636,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "Record the account research source and observation time. A later reviewer should be able to tell whether the value was current when the first action was taken. This applies to salesdevelopmentrep-keep-a-correction-log-for-account-research."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for keep a correction log for account research?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in keep a correction log for account research?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review keep a correction log for account research?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-run-a-monthly-control-review-for-sequence-approval",
+    "source": {
+      "label": "FTC CAN-SPAM compliance guide",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+    }
   },
   {
     "slug": "salesdevelopmentrep-run-a-monthly-control-review-for-sequence-approval",
@@ -590,7 +730,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "Keep the sequence approval queue separate from the general inbox. A queue without an owner hides the oldest item. This applies to salesdevelopmentrep-run-a-monthly-control-review-for-sequence-approval."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for run a monthly control review for sequence approval?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in run a monthly control review for sequence approval?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review run a monthly control review for sequence approval?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-run-a-surprise-sample-of-objection-log",
+    "source": {
+      "label": "FTC privacy and security guidance",
+      "url": "https://www.ftc.gov/business-guidance/privacy-security"
+    }
   },
   {
     "slug": "salesdevelopmentrep-run-a-surprise-sample-of-objection-log",
@@ -665,7 +825,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "If the rule changes, keep the earlier classification and apply the new rule to later cases. This applies to salesdevelopmentrep-run-a-surprise-sample-of-objection-log."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for run a surprise sample of objection log?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in run a surprise sample of objection log?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review run a surprise sample of objection log?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-set-a-stale-record-rule-for-meeting-handoff",
+    "source": {
+      "label": "SBA sales and marketing guidance",
+      "url": "https://www.sba.gov/business-guide/grow-your-business/sales-marketing"
+    }
   },
   {
     "slug": "salesdevelopmentrep-set-a-stale-record-rule-for-meeting-handoff",
@@ -740,7 +920,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "Review one meeting handoff case end to end in the weekly meeting. Check the source, decision, destination record, and confirmation. This applies to salesdevelopmentrep-set-a-stale-record-rule-for-meeting-handoff."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for set a stale-record rule for meeting handoff?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in set a stale-record rule for meeting handoff?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review set a stale-record rule for meeting handoff?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-write-a-customer-safe-status-note-for-pipeline-review",
+    "source": {
+      "label": "FTC CAN-SPAM compliance guide",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+    }
   },
   {
     "slug": "salesdevelopmentrep-write-a-customer-safe-status-note-for-pipeline-review",
@@ -815,7 +1015,27 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "Name a backup owner for leave and time-zone gaps. Coverage should be written into the routine. This applies to salesdevelopmentrep-write-a-customer-safe-status-note-for-pipeline-review."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for write a customer-safe status note for pipeline review?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in write a customer-safe status note for pipeline review?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review write a customer-safe status note for pipeline review?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-write-a-decision-rights-note-for-account-research",
+    "source": {
+      "label": "FTC privacy and security guidance",
+      "url": "https://www.ftc.gov/business-guidance/privacy-security"
+    }
   },
   {
     "slug": "salesdevelopmentrep-write-a-decision-rights-note-for-account-research",
@@ -889,6 +1109,26 @@ export const october26BlogBatch: readonly BlogPost[] = [
           "Keep the account research queue separate from the general inbox. A queue without an owner hides the oldest item. This applies to salesdevelopmentrep-write-a-decision-rights-note-for-account-research."
         ]
       }
-    ]
+    ],
+    "faq": [
+      {
+        "q": "What should the SDR record first for write a decision-rights note for account research?",
+        "a": "Start with the account and contact identifier, the source and consent status, and the qualification evidence. The record should show the owner and the next action date before the prospect moves to the next step."
+      },
+      {
+        "q": "Who decides an exception in write a decision-rights note for account research?",
+        "a": "The sales development manager decides scope, consent, or commitment exceptions. The SDR support specialist prepares the evidence, records the gap, and routes one precise question with a dated next action."
+      },
+      {
+        "q": "How should the team review write a decision-rights note for account research?",
+        "a": "Use a weekly sample that includes one routine case, one exception, and one recent correction. Compare the recorded evidence with the actual source and fix the queue or template when the same gap appears twice."
+      }
+    ],
+    "internalService": "/services",
+    "internalSibling": "/blog/salesdevelopmentrep-build-a-first-week-shadow-plan-for-lead-intake",
+    "source": {
+      "label": "SBA sales and marketing guidance",
+      "url": "https://www.sba.gov/business-guide/grow-your-business/sales-marketing"
+    }
   }
 ];
