@@ -8,6 +8,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-build-a-daily-queue-review-for-sequence-approval.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/sequence-quality-review",
+    "internalSibling": "/blog/outbound-sequence-review",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around sequence approval",
@@ -71,6 +79,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-close-crm-hygiene-only-when-the-destination-record-changes.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/crm-hygiene",
+    "internalSibling": "/blog/crm-hygiene-review",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around CRM hygiene",
@@ -134,6 +150,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-create-an-intake-gate-for-lead-intake-that-preserves-the-source.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/list-building-enrichment",
+    "internalSibling": "/blog/lead-status-evidence-rules",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around lead intake",
@@ -197,6 +221,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-design-a-first-week-shadow-plan-for-opt-out-record.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/suppression-support",
+    "internalSibling": "/blog/cross-tool-opt-out-propagation",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around opt-out record",
@@ -260,6 +292,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-handle-missing-evidence-in-meeting-handoff-without-guessing.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/meeting-coordination",
+    "internalSibling": "/blog/meeting-handoff-notes",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around meeting handoff",
@@ -323,6 +363,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-keep-lead-intake-moving-through-leave-and-time-zone-gaps.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/meeting-support",
+    "internalSibling": "/blog/calendar-booking-routing-rule-audit",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around lead intake",
@@ -386,6 +434,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-review-access-and-permissions-around-sequence-approval-every-month.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/outreach-operations",
+    "internalSibling": "/blog/outbound-sequence-review",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around sequence approval",
@@ -449,6 +505,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-run-a-weekly-quality-sample-on-account-research.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/prospect-research",
+    "internalSibling": "/blog/account-research-brief",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around account research",
@@ -512,6 +576,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-separate-preparation-from-approval-in-crm-hygiene.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/crm-hygiene",
+    "internalSibling": "/blog/crm-note-standard",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around CRM hygiene",
@@ -575,6 +647,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-set-a-safe-stop-rule-for-objection-log.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/outreach-operations",
+    "internalSibling": "/blog/inbound-reply-intent-routing",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around objection log",
@@ -638,6 +718,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-trace-every-account-research-change-to-a-named-owner.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/prospect-research",
+    "internalSibling": "/blog/account-research-brief",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around account research",
@@ -701,6 +789,14 @@ export const october27BlogBatch: readonly BlogPost[] = [
     "publishedAt": "2026-10-27",
     "readTime": "8 min read",
     "thumbnail": "/article-thumbnails/october-27/salesdevelopmentrep-write-a-correction-record-for-pipeline-review-that-survives-review.png",
+    "faq": [
+      {"q": "What should stay with the accountable owner?", "a": "Judgment, approval, licensed work, sensitive exceptions, and policy decisions should stay with the qualified owner."},
+      {"q": "What is the safest place to begin?", "a": "Begin with one repeatable workflow that has a known source, clear output, and an available reviewer."},
+      {"q": "How should quality be reviewed?", "a": "Review a focused sample against a short acceptance checklist, then update the process when patterns appear."}
+    ],
+    "internalService": "/services/pipeline-support",
+    "internalSibling": "/blog/pipeline-stage-evidence",
+    "source": {"label": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"},
     "sections": [
       {
         "heading": "The operational risk around pipeline review",
