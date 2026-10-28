@@ -67,6 +67,24 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
           "Record the decision and the next check so the study does not end as an archive. Report what moved, what stayed the same, and what the study still cannot explain. If the action requires a policy or access change, route it to the owner and record the decision. Schedule the next review before the action begins, not after the result arrives. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 sequence approval close should name the destination field, the approver, and the lead response time check."
         ]
       }
+    ],
+    "sources": [
+      {
+        "label": "CISA — cybersecurity best practices",
+        "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
+      },
+      {
+        "label": "UK Information Commissioner Office — organisations",
+        "url": "https://ico.org.uk/for-organisations/"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "U.S. Small Business Administration — manage your business",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      }
     ]
   },
   {
@@ -135,6 +153,24 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
           "Report what moved, what did not, and which result is still unexplained. Keep the review note with the CRM hygiene evidence so the next owner can see why the process changed. Keep the old process note until the new process has been tested; do not erase the baseline. If the action needs approval, record the approver and the date before the change is applied. Use the same note in the case file and the study extract; do not create a second version in a personal document. The CRM hygiene review at Sales Development Rep should state whether the opt-out record was current on October 28.",
           "If the action affects missed opt-out, route it to SDR and record the approval before implementation. Name the owner, the review date, and the decision the study is expected to inform. Keep the old process note until the new process has been tested; do not erase the baseline. Close the review when the owner accepts the finding and the next test is on the calendar. Keep the measurement note short enough to read with the case and specific enough to support the reported reply rate. The October 28 CRM hygiene note should distinguish a missing lead intake from a confirmed negative."
         ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "U.S. Small Business Administration — manage your business",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA — cybersecurity best practices",
+        "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
+      },
+      {
+        "label": "UK Information Commissioner Office — organisations",
+        "url": "https://ico.org.uk/for-organisations/"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
       }
     ]
   },
@@ -205,6 +241,24 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
           "If the action affects missed opt-out, route it to prospect and record the approval before implementation. A quality review should end with a testable next step, not a general instruction to improve. Report the action result even if the change did not work; a failed test is still evidence. Report a failed action with the same detail as a successful one so the team can learn from it. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 lead intake recovery test should record the restore point and the opt-out closure result."
         ]
       }
+    ],
+    "sources": [
+      {
+        "label": "UK Information Commissioner Office — organisations",
+        "url": "https://ico.org.uk/for-organisations/"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "U.S. Small Business Administration — manage your business",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA — cybersecurity best practices",
+        "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
+      }
     ]
   },
   {
@@ -274,6 +328,24 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
           "Keep the review note with the account research evidence so the next reviewer can see why the process changed. Repeat the protocol with the same definitions and window, then compare the same measures. Set the next sample date before closing the review, so the action does not drift. Schedule the next review before the action begins, not after the result arrives. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for account research should show the source version and the sales manager decision."
         ]
       }
+    ],
+    "sources": [
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "U.S. Small Business Administration — manage your business",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA — cybersecurity best practices",
+        "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
+      },
+      {
+        "label": "UK Information Commissioner Office — organisations",
+        "url": "https://ico.org.uk/for-organisations/"
+      }
     ]
   },
   {
@@ -342,6 +414,24 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
           "Repeat the protocol after the change with the same definitions, window, and exclusions. Name the owner, the review date, and the decision the study is expected to inform. Close the review only when the owner has accepted the result and the next check is scheduled. Record the owner, due date, and exact change that will be tested at the next review. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 meeting handoff exception log should show the reason code, owner, and release decision.",
           "Record the decision and the next check so the study does not end as an archive. Choose one change and one measure to test it; a long action list is hard to evaluate. Choose a measure that can move within one cycle and a second measure that checks for unintended effects. Link the action to the case evidence that prompted it, not only to the meeting notes. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 meeting handoff recovery test should record the restore point and the sequence approval cycle result."
         ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "UK Information Commissioner Office — organisations",
+        "url": "https://ico.org.uk/for-organisations/"
+      },
+      {
+        "label": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "label": "U.S. Small Business Administration — manage your business",
+        "url": "https://www.sba.gov/business-guide/manage-your-business"
+      },
+      {
+        "label": "CISA — cybersecurity best practices",
+        "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
       }
     ]
   }
