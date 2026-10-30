@@ -1,1 +1,56 @@
-/* Contact page rules live in the shared design system so the route cannot drift. */
+/* The shared system owns the page. These rules protect the verified team image's identity evidence. */
+.contact-page .official-team-photo {
+  align-items: center;
+  background: var(--ink);
+  display: flex;
+  min-height: 0;
+  padding: clamp(1rem, 2vw, 1.75rem);
+}
+
+.contact-page .official-team-photo img {
+  aspect-ratio: 953 / 540;
+  display: block;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  position: static;
+  width: 100%;
+}
+
+.contact-page .official-team-copy {
+  padding: clamp(3rem, 5vw, 5rem) clamp(3rem, 6vw, 6rem);
+}
+
+.contact-page .official-plate {
+  border-left: .4rem solid var(--accent);
+  gap: .45rem;
+  margin-bottom: 1rem;
+  padding: .85rem 1rem;
+}
+
+@media (min-width: 901px) {
+  .contact-page .official-team-copy h2 {
+    font-size: clamp(3.25rem, 4.2vw, 4rem);
+  }
+}
+
+.contact-page .official-plate img {
+  height: auto;
+  width: 149px;
+}
+
+@media (max-width: 900px) {
+  .contact-page .official-team-photo {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-page .official-team-copy {
+    padding: 2.5rem 5vw 3.5rem;
+  }
+
+  .contact-page .official-plate {
+    max-width: 100%;
+  }
+}
