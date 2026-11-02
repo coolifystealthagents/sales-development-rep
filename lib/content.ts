@@ -2,6 +2,8 @@ import { site } from './site';
 import type { BlogPost, ResearchPost } from './types';
 import { november01BlogPosts } from './november01-blog';
 import { november01ResearchPosts } from './november01-research';
+import { november02BlogBatch } from './november02Blog';
+import { november02ResearchBatch } from './november02Research';
 import { october12BlogPosts } from './october12BlogPosts';
 import { october12ResearchPosts } from './october12ResearchPosts';
 import { october13BlogPosts } from './october13BlogPosts';
@@ -926,8 +928,8 @@ const existingResearchPosts: ResearchPost[] = [
   }
 ];
 
-export const blogPosts: BlogPost[] = [...october28BlogBatch, ...october27BlogBatch, ...october26BlogBatch, ...october25BlogBatch, ...october22BlogBatch, ...october13BlogPosts, ...october12BlogPosts, ...existingBlogPosts];
-export const researchPosts: ResearchPost[] = [...october28ResearchBatch, ...october27ResearchBatch, ...october26ResearchBatch, ...october25ResearchBatch, ...october22ResearchBatch, ...october13ResearchPosts, ...october12ResearchPosts, ...existingResearchPosts];
+export const blogPosts: BlogPost[] = [...november02BlogBatch, ...october28BlogBatch, ...october27BlogBatch, ...october26BlogBatch, ...october25BlogBatch, ...october22BlogBatch, ...october13BlogPosts, ...october12BlogPosts, ...existingBlogPosts];
+export const researchPosts: ResearchPost[] = [...november02ResearchBatch, ...october28ResearchBatch, ...october27ResearchBatch, ...october26ResearchBatch, ...october25ResearchBatch, ...october22ResearchBatch, ...october13ResearchPosts, ...october12ResearchPosts, ...existingResearchPosts];
 
 export const nav = [
   { href: '/', label: 'Home' },
