@@ -23,6 +23,6 @@ export type SiteConfig = {
   name: string; domain: string; siteId: string; niche: string; audience: string; design: string;
   eyebrow: string; hero: string; heroAccent: string; heroBody: string; manifesto: string;
   primary: string; secondary: string; accent: string; canvas: string; ink: string;
-  displayFont: string; bodyFont: string; heroImage: string; heroAlt: string;
+  displayFont: string; bodyFont: string; heroImage: string; heroImageAvifSrcSet: string; heroImageWebpSrcSet: string; heroAlt: string;
   services: Service[]; categories: string[]; principles: string[]; sources: { label: string; url: string }[];
 };

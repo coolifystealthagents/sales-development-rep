@@ -13,8 +13,10 @@ export const site: SiteConfig = {
   heroBody: 'Build specialist remote support around prospect research, list quality, approved outreach, CRM records, meeting handoffs, and sequence review.',
   manifesto: 'Useful sales development support makes context visible before the conversation begins.',
   primary: '#c43a31', secondary: '#f5a15d', accent: '#f4d54b', canvas: '#fff8ee', ink: '#17171b',
-  displayFont: 'Arial Black', bodyFont: 'Arial', heroImage: '/hero.png',
-  heroAlt: 'A sales development signal desk connecting prospect records, review gates, and qualified conversations',
+  displayFont: 'Arial Black', bodyFont: 'Arial', heroImage: '/images/heroes/home-outbound-outreach-2400.avif',
+  heroImageAvifSrcSet: '/images/heroes/home-outbound-outreach-960.avif 960w, /images/heroes/home-outbound-outreach-1600.avif 1600w, /images/heroes/home-outbound-outreach-2400.avif 2400w',
+  heroImageWebpSrcSet: '/images/heroes/home-outbound-outreach-960.webp 960w, /images/heroes/home-outbound-outreach-1600.webp 1600w, /images/heroes/home-outbound-outreach-2400.webp 2400w',
+  heroAlt: 'Professionals using headsets and laptops for outbound outreach',
   services: [
     {
       slug: 'prospect-research', name: 'Prospect research', short: 'Prepare account and contact context from approved sources before sellers engage.',
