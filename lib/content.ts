@@ -1,5 +1,7 @@
 import { site } from './site';
 import type { BlogPost, ResearchPost } from './types';
+import { november03BlogPosts } from './november03-blog';
+import { november03ResearchPosts } from './november03-research';
 import { november01BlogPosts } from './november01-blog';
 import { november01ResearchPosts } from './november01-research';
 import { november02BlogBatch } from './november02Blog';
