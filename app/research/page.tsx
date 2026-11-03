@@ -1,6 +1,42 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { researchPosts } from '@/lib/content';
 import { TopicVisual } from '@/components/TopicVisual';
-export const metadata: Metadata = { title: 'Research', description: 'Source-led research on sales development operations, evidence, and review controls.', alternates: { canonical: '/research' } };
-export default function ResearchPage() { return <main><header className="page-hero split-hero"><div><p className="eyebrow">Research library</p><h1>Evidence for more inspectable pipeline operations.</h1><p>Source-led briefs that turn public guidance and operating patterns into questions your revenue team can test.</p></div><TopicVisual title="Sales development research library" intake="SOURCE DATA" process="METHOD" output="FINDING"/></header><section className="content-wrap"><div className="index-intro"><h2>Review the evidence library</h2><p>Methods, limitations, findings, and source links remain visible so interpretation does not outrun the observation.</p></div><div className="article-grid editorial-index">{researchPosts.map(post => <Link className="article-card" href={`/research/${post.slug}`} key={post.slug}>{post.thumbnail ? <img src={post.thumbnail} width="1200" height="630" alt=""/> : <TopicVisual compact title={post.title} seed={post.slug}/>}<span className="pill">{post.cluster}</span><h2>{post.title}</h2><p>{post.summary}</p><p className="meta"><time dateTime={post.publishedAt}>{post.publishedAt}</time> · Research brief</p><span className="text-link">Review the brief</span></Link>)}</div></section></main>; }
+import { BlogCard } from '@/components/BlogCard';
+
+export const metadata: Metadata = {
+  title: 'Research',
+  description: 'Source-led research on sales development operations, evidence, and review controls.',
+  alternates: { canonical: '/research' },
+};
+
+export default function ResearchPage() {
+  return <main className="research-page">
+    <header className="page-hero split-hero">
+      <div>
+        <p className="eyebrow">Research library</p>
+        <h1>Evidence for more inspectable pipeline operations.</h1>
+        <p>Source-led briefs that turn public guidance and operating patterns into questions your revenue team can test.</p>
+      </div>
+      <TopicVisual title="Sales development research library" intake="SOURCE DATA" process="METHOD" output="FINDING"/>
+    </header>
+    <section className="content-wrap">
+      <div className="index-intro">
+        <h2>Review the evidence library</h2>
+        <p>Methods, limitations, findings, and source links remain visible so interpretation does not outrun the observation.</p>
+      </div>
+      <div className="article-grid editorial-index">
+        {researchPosts.map(post => <BlogCard
+          key={post.slug}
+          href={`/research/${post.slug}`}
+          title={post.title}
+          description={post.summary}
+          headingLevel="h2"
+          media={post.thumbnail ? <img src={post.thumbnail} width="1200" height="630" alt=""/> : <TopicVisual compact title={post.title} seed={post.slug}/>}
+          category={post.cluster}
+          meta={<><time dateTime={post.publishedAt}>{post.publishedAt}</time> · Research brief</>}
+          linkLabel="Review the brief"
+        />)}
+      </div>
+    </section>
+  </main>;
+}
