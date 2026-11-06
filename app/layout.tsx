@@ -4,4 +4,11 @@ import { Header, Footer } from '@/components/SiteChrome';
 import { site } from '@/lib/site';
 import './globals.css';
 export const metadata: Metadata = { metadataBase: new URL(`https://${site.domain}`), title: { default: `${site.name} | Specialist sales development support`, template: `%s | ${site.name}` }, description: site.heroBody, icons: { icon: '/logo.svg', shortcut: '/logo.svg', apple: '/logo.svg' }, openGraph: { type: 'website', siteName: site.name, images: ['/hero.png'] }, alternates: { canonical: '/' } };
-export default function RootLayout({ children }: { children: React.ReactNode }) { return <html lang="en" data-design={site.design}><body style={{ '--primary': site.primary, '--secondary': site.secondary, '--accent': site.accent, '--canvas': site.canvas, '--ink': site.ink, '--display': site.displayFont, '--body': site.bodyFont } as React.CSSProperties}><Header/><div id="main-content" tabIndex={-1}>{children}</div><Footer/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'${site.siteId}',endpoint:'/ingest/track',debug:false};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/></body></html>; }
+export default function RootLayout({ children }: { children: React.ReactNode }) { return <html lang="en" data-design={site.design}><body style={{ '--primary': site.primary, '--secondary': site.secondary, '--accent': site.accent, '--canvas': site.canvas, '--ink': site.ink, '--display': site.displayFont, '--body': site.bodyFont } as React.CSSProperties}><Header/><div id="main-content" tabIndex={-1}>{children}</div><Footer/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'${site.siteId}',endpoint:'/ingest/track',debug:false};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/>
+        <Script
+          id="databull-analytics"
+          src="https://databull.stealthagents.us/js/script.js"
+          data-website-id="dc_ijkg48380n9w3p"
+          data-domain="salesdevelopmentrep.com"
+          strategy="afterInteractive"
+        /></body></html>; }
