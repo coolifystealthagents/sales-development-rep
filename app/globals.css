@@ -15,3 +15,5 @@
   .oct22-sticky-toc{position:static!important;left:auto;right:auto;top:auto;z-index:auto;margin:0 0 1rem!important;width:100%!important;max-width:100%;border-radius:10px;box-shadow:none}
   .oct22-sticky-toc>nav{position:static;width:100%;max-height:60vh;border:0;border-top:1px solid #e5e5e5;box-shadow:none}
 }
+.mobile-toc{display:none}
+@media(max-width:900px){.mobile-toc{display:block;position:static;margin:0 0 1.5rem;padding:1rem;border:1px solid var(--ink);background:white}.mobile-toc-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;min-height:48px;border:0;background:transparent;font-weight:900;cursor:pointer}.mobile-toc nav{max-height:55vh;overflow:auto;padding-top:.5rem}.mobile-toc a{display:block;padding:.5rem 0;font-size:.9rem;text-decoration:underline}}

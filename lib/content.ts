@@ -1,6 +1,8 @@
 import { site } from './site';
 import type { BlogPost, ResearchPost } from './types';
+import { november06BlogPosts } from './november06-blog';
 import { november05BlogPosts } from './november05-blog';
+import { november06ResearchPosts } from './november06-research';
 import { november05ResearchPosts } from './november05-research';
 import { november04BlogPosts } from './november04-blog';
 import { november04ResearchPosts } from './november04-research';
@@ -934,8 +936,8 @@ const existingResearchPosts: ResearchPost[] = [
   }
 ];
 
-export const blogPosts: BlogPost[] = [...november05BlogPosts, ...november04BlogPosts, ...november03BlogPosts, ...november01BlogPosts, ...november02BlogBatch, ...october28BlogBatch, ...october27BlogBatch, ...october26BlogBatch, ...october25BlogBatch, ...october22BlogBatch, ...october13BlogPosts, ...october12BlogPosts, ...existingBlogPosts];
-export const researchPosts: ResearchPost[] = [...november05ResearchPosts, ...november04ResearchPosts, ...november03ResearchPosts, ...november01ResearchPosts, ...november02ResearchBatch, ...october28ResearchBatch, ...october27ResearchBatch, ...october26ResearchBatch, ...october25ResearchBatch, ...october22ResearchBatch, ...october13ResearchPosts, ...october12ResearchPosts, ...existingResearchPosts];
+export const blogPosts: BlogPost[] = [...november06BlogPosts, ...november05BlogPosts, ...november04BlogPosts, ...november03BlogPosts, ...november01BlogPosts, ...november02BlogBatch, ...october28BlogBatch, ...october27BlogBatch, ...october26BlogBatch, ...october25BlogBatch, ...october22BlogBatch, ...october13BlogPosts, ...october12BlogPosts, ...existingBlogPosts];
+export const researchPosts: ResearchPost[] = [...november06ResearchPosts, ...november05ResearchPosts, ...november04ResearchPosts, ...november03ResearchPosts, ...november01ResearchPosts, ...november02ResearchBatch, ...october28ResearchBatch, ...october27ResearchBatch, ...october26ResearchBatch, ...october25ResearchBatch, ...october22ResearchBatch, ...october13ResearchPosts, ...october12ResearchPosts, ...existingResearchPosts];
 
 export const nav = [
   { href: '/', label: 'Home' },
