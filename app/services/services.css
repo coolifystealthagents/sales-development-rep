@@ -54,3 +54,44 @@
     gap: .55rem;
   }
 }
+
+.service-card-photo {
+  width: calc(100% + 2.9rem);
+  aspect-ratio: 8 / 5;
+  margin: -1.45rem -1.45rem .2rem;
+  border: 0;
+  border-bottom: 1px solid var(--ink);
+  background: var(--ink);
+  overflow: hidden;
+}
+
+.service-card-photo picture,
+.service-card-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.service-card-photo img {
+  object-fit: cover;
+  object-position: var(--service-photo-position, 50% 50%);
+}
+
+.service-card-workflow {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .service-card-photo {
+    width: calc(100% + 2.4rem);
+    margin: -1.2rem -1.2rem .2rem;
+  }
+}
