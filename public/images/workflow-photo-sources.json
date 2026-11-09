@@ -1,0 +1,1028 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-09",
+  "generator": {
+    "library": "sharp",
+    "version": "0.35.5"
+  },
+  "license": {
+    "name": "Unsplash License",
+    "url": "https://unsplash.com/license",
+    "verification": "Verified by independent web research; automated retrieval from this host is redirected to an Anubis challenge and returns HTTP 401.",
+    "automatedRetrieval": {
+      "status": 401,
+      "redirectPath": "/.within.website",
+      "checkedAt": "2026-11-09T17:47:47Z"
+    }
+  },
+  "records": [
+    {
+      "key": "home-prospect-research",
+      "usage": "Homepage service thumbnail: Prospect research",
+      "canonical": "https://unsplash.com/photos/hpjSkU2UYSU",
+      "creator": "Carlos Muza",
+      "creatorProfile": "https://unsplash.com/@kmuza",
+      "scene": "Laptop displaying graphical business analytics while a professional works beside it",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+        "downloadUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1709,
+        "format": "JPEG",
+        "bytes": 391277,
+        "sha256": "5ede282e6449f793d71a340324a7bef727dc0dc5a89938595de10279c61be661"
+      },
+      "crop": {
+        "ratio": "8:5",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/home-services/prospect-research-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 400,
+          "bytes": 12114,
+          "sha256": "9850202e725092afd505fc262e6d06c6b5c39cd1bab3c293d9e9a9bfbb828c61"
+        },
+        {
+          "path": "public/images/home-services/prospect-research-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 21198,
+          "sha256": "1576ea5f7a65d66e9f97169bacbd07ced344daeb69bb88c184fe2b1be5916de9"
+        },
+        {
+          "path": "public/images/home-services/prospect-research-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 600,
+          "bytes": 20799,
+          "sha256": "5033941a08d4a6b8f9999e4e1de75c8a2ddb9ee07fa230e20abe9dd0b65a1704"
+        },
+        {
+          "path": "public/images/home-services/prospect-research-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 600,
+          "bytes": 35870,
+          "sha256": "257a2b1725d527893c6b96bfc22bcab28bf6a8b88a9f3e3d7773ee7832dacc62"
+        },
+        {
+          "path": "public/images/home-services/prospect-research-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 800,
+          "bytes": 30271,
+          "sha256": "785effc538cedb829e785ea8ab4b213adbddfec8a992fc2cbba2f79c3950d187"
+        },
+        {
+          "path": "public/images/home-services/prospect-research-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 800,
+          "bytes": 50644,
+          "sha256": "3a62b92172402b5f828dc76f22c27114ec836e6bb878a2de08ccdfbeede42f8a"
+        }
+      ]
+    },
+    {
+      "key": "service-prospect-research",
+      "usage": "Service detail hero: Prospect research",
+      "canonical": "https://unsplash.com/photos/pypeCEaJeZY",
+      "creator": "Campaign Creators",
+      "creatorProfile": "https://unsplash.com/@campaign_creators",
+      "scene": "Collaborative account analysis with laptop, charts, and evidence on a table",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978",
+        "downloadUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1600,
+        "format": "JPEG",
+        "bytes": 394866,
+        "sha256": "119c28a24401c5793d8fcbebd574187e0dbecab79b2c435e343ddbdc1ebe93b8"
+      },
+      "crop": {
+        "ratio": "3:2",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/service-heroes/prospect-research-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 21513,
+          "sha256": "bce7f30eaa2e66fe75276825b57e697a1a29a0d4c6c48f57bf8dd82a8db590b2"
+        },
+        {
+          "path": "public/images/service-heroes/prospect-research-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 34342,
+          "sha256": "fb8e0261022f3b64ed22e04b01b7b46f3d1574bc6d3ce7a245a24cc19a885ffe"
+        },
+        {
+          "path": "public/images/service-heroes/prospect-research-1600.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 40130,
+          "sha256": "5bb2ef4c28be4af5911737214f2d3e3a485cc5b7e1923fba449e02d22494b60b"
+        },
+        {
+          "path": "public/images/service-heroes/prospect-research-1600.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 65794,
+          "sha256": "a7cdca4c46051632d6b3ff448d9b2dd8a1ba0b49b0b32e562dc324ec1b54363a"
+        },
+        {
+          "path": "public/images/service-heroes/prospect-research-2400.avif",
+          "format": "avif",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 75750,
+          "sha256": "c01e6324a901ea96eb7a5b2508c274212b7df5846f4fa90351ea37198f735e2c"
+        },
+        {
+          "path": "public/images/service-heroes/prospect-research-2400.webp",
+          "format": "webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 124304,
+          "sha256": "7d63d692d00df92de506bbbe59366e8d6c94f79bf07214503b637107090f82bf"
+        }
+      ]
+    },
+    {
+      "key": "home-list-building-enrichment",
+      "usage": "Homepage service thumbnail: List building and enrichment",
+      "canonical": "https://unsplash.com/photos/FHnnjk1Yj7Y",
+      "creator": "Nick Morrison",
+      "creatorProfile": "https://unsplash.com/@nickmorrison",
+      "scene": "Professional desk with an open laptop and handwritten notebook for structured list preparation",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1499750310107-5fef28a66643",
+        "downloadUrl": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1600,
+        "format": "JPEG",
+        "bytes": 512374,
+        "sha256": "ffdd4b231c9b813fd2bcb904dbf077e72dd2a54be8f34e4fe007dcd0c9c14162"
+      },
+      "crop": {
+        "ratio": "8:5",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/home-services/list-building-enrichment-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 400,
+          "bytes": 11921,
+          "sha256": "3f06f741545ce91d28c93cca32da9821b59334855ff2c605c11a9b5cc6bee95d"
+        },
+        {
+          "path": "public/images/home-services/list-building-enrichment-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 18692,
+          "sha256": "966ed276fa43445231ed09e2f47f768359b14741b4957b59e98ae9b4e77bdeda"
+        },
+        {
+          "path": "public/images/home-services/list-building-enrichment-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 600,
+          "bytes": 21123,
+          "sha256": "f6b14990a3307dc5f64efea092c03acba12d7a9ded2c4a2e3eaecaeea8fc768f"
+        },
+        {
+          "path": "public/images/home-services/list-building-enrichment-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 600,
+          "bytes": 33448,
+          "sha256": "d9040710c4224b6b9d5715fb5869a3d83581d88568f141b1615f885aca00bdab"
+        },
+        {
+          "path": "public/images/home-services/list-building-enrichment-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 800,
+          "bytes": 31035,
+          "sha256": "48ef78bdb614183de4c9877055b9112f47c2b2682ea0242dd4ac8fa395c8da7c"
+        },
+        {
+          "path": "public/images/home-services/list-building-enrichment-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 800,
+          "bytes": 50436,
+          "sha256": "f69625e9fffda448003e706baf4a3bec993236a542e0e9a206fd3d1ca2bcb205"
+        }
+      ]
+    },
+    {
+      "key": "service-list-building-enrichment",
+      "usage": "Service detail hero: List building and enrichment",
+      "canonical": "https://unsplash.com/photos/5fNmWej4tAA",
+      "creator": "Scott Graham",
+      "creatorProfile": "https://unsplash.com/@homajob",
+      "scene": "Hands checking printed records beside a laptop",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
+        "downloadUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1600,
+        "format": "JPEG",
+        "bytes": 435492,
+        "sha256": "f8297748c7777b66eb07855951332020f49ccc602d34c622b1575e3ac231dc6e"
+      },
+      "crop": {
+        "ratio": "3:2",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/service-heroes/list-building-enrichment-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 15678,
+          "sha256": "df368d8bf4241e13ae7f7e9c8e8c7f59102e89c2320e643fa13378fb4bcc6752"
+        },
+        {
+          "path": "public/images/service-heroes/list-building-enrichment-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 27376,
+          "sha256": "325c20e634890cc4a43f5cac8cf48fec716d85b65a15bef078c20dfcd133f2b0"
+        },
+        {
+          "path": "public/images/service-heroes/list-building-enrichment-1600.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 32293,
+          "sha256": "2746df2a995ffa705d7c43809e02f3490ec466c2a27e3b4f5db33fcfae578b38"
+        },
+        {
+          "path": "public/images/service-heroes/list-building-enrichment-1600.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 54942,
+          "sha256": "1b002fabe9b3809f1ede3fbf2914c9a75a28de8a440a33cb652b8d09ce9f3ef2"
+        },
+        {
+          "path": "public/images/service-heroes/list-building-enrichment-2400.avif",
+          "format": "avif",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 68885,
+          "sha256": "2dc35d44d57bd787a948e315ad7bbdba76ac863ffc4cecf294163d347baa9c54"
+        },
+        {
+          "path": "public/images/service-heroes/list-building-enrichment-2400.webp",
+          "format": "webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 104818,
+          "sha256": "7f2bcd88742fb19e007ca0c1a135445f8f1307fbfd3b42481ee024058071fb5e"
+        }
+      ]
+    },
+    {
+      "key": "home-outreach-operations",
+      "usage": "Homepage service thumbnail: Outreach operations support",
+      "canonical": "https://unsplash.com/photos/SYTO3xs06fU",
+      "creator": "Marvin Meyer",
+      "creatorProfile": "https://unsplash.com/@marvelous",
+      "scene": "Coworkers preparing work together around laptops",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4",
+        "downloadUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1600,
+        "format": "JPEG",
+        "bytes": 551061,
+        "sha256": "d4a60544605ede9a95f446e5198501eac2f9c1d77d483720184537d7902d785b"
+      },
+      "crop": {
+        "ratio": "8:5",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/home-services/outreach-operations-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 400,
+          "bytes": 14033,
+          "sha256": "91b22109a35575a043d61be6bae162c3893fc2c5930b254161efd541c69a59eb"
+        },
+        {
+          "path": "public/images/home-services/outreach-operations-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 23988,
+          "sha256": "5c55dbd2267eff93ad2b7e1f71737f5d9d6042e51a9dfa8c1e7bcc6d9ed0b89c"
+        },
+        {
+          "path": "public/images/home-services/outreach-operations-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 600,
+          "bytes": 23402,
+          "sha256": "9b77656bd30dcb110c3667a75edc9ab0d760d6c8d914215e22f59578d004e498"
+        },
+        {
+          "path": "public/images/home-services/outreach-operations-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 600,
+          "bytes": 39810,
+          "sha256": "8e36ca86bd7840a9b901c5d4ec746613848e05c4686efd9d743284565f6df913"
+        },
+        {
+          "path": "public/images/home-services/outreach-operations-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 800,
+          "bytes": 35271,
+          "sha256": "232c0084aac84a5ab812bac5b8b4b7e12b0e6b885361b8fc60ee6622ede60964"
+        },
+        {
+          "path": "public/images/home-services/outreach-operations-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 800,
+          "bytes": 59558,
+          "sha256": "f9eb7537f9e7a9bbc5d446d6cb536e4e93de9aa37f3395ab7a4019f649cecc41"
+        }
+      ]
+    },
+    {
+      "key": "service-outreach-operations",
+      "usage": "Service detail hero: Outreach operations support",
+      "canonical": "https://unsplash.com/photos/wD1LRb9OeEo",
+      "creator": "Austin Distel",
+      "creatorProfile": "https://unsplash.com/@austindistel",
+      "scene": "Professional coordinating work across a laptop and phone",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+        "downloadUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1602,
+        "format": "JPEG",
+        "bytes": 487327,
+        "sha256": "d38cd6fae7063497d6d6ca8035630d6166bbe6b2fb2d39d648b96ba59b61634a"
+      },
+      "crop": {
+        "ratio": "3:2",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/service-heroes/outreach-operations-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 30120,
+          "sha256": "97bd168ef079960781aa47ecc6b2f714136d588ad95dcfac4dd07a367e4744f8"
+        },
+        {
+          "path": "public/images/service-heroes/outreach-operations-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 43308,
+          "sha256": "960bc1401edf88acb20185ef11a37f3ff45fe7bbb63b4911776d9023666e19b4"
+        },
+        {
+          "path": "public/images/service-heroes/outreach-operations-1600.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 65233,
+          "sha256": "5d22c7400cd87c9f2c7659a68b1a932d592011a17d0613a8fe939f54c10ab32b"
+        },
+        {
+          "path": "public/images/service-heroes/outreach-operations-1600.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 93880,
+          "sha256": "f039f21c4cb3c971929a6002ecb8f0bb573531e67c5e9655a11d1a2708ec70eb"
+        },
+        {
+          "path": "public/images/service-heroes/outreach-operations-2400.avif",
+          "format": "avif",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 127780,
+          "sha256": "7b9e8b37c87a84a95ee222eb72fffcca0138bb7524c9e49ec65636a6655df9d3"
+        },
+        {
+          "path": "public/images/service-heroes/outreach-operations-2400.webp",
+          "format": "webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 184882,
+          "sha256": "8239553c1248755631136729fa12ff3da87eafc6540d5fce8fdb7e987ddb3bde"
+        }
+      ]
+    },
+    {
+      "key": "home-crm-hygiene",
+      "usage": "Homepage service thumbnail: CRM hygiene",
+      "canonical": "https://unsplash.com/photos/Hcfwew744z4",
+      "creator": "Christin Hume",
+      "creatorProfile": "https://unsplash.com/@christinhumephoto",
+      "scene": "Professional updating records on a laptop beside a notebook and phone",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+        "downloadUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1600,
+        "format": "JPEG",
+        "bytes": 437565,
+        "sha256": "6da351e4fce60938b93a3bd3bad2cf7a8771e838d8d81d5d5508855f4dd86ed0"
+      },
+      "crop": {
+        "ratio": "8:5",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/home-services/crm-hygiene-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 400,
+          "bytes": 11371,
+          "sha256": "4c37194f937305e4b1f56b8d4f1f4699e0b0d2e2af5f25a09048d6c69022df4d"
+        },
+        {
+          "path": "public/images/home-services/crm-hygiene-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 20054,
+          "sha256": "cc4b4771276670c3a209a1fd44771d90e206cbdcc377016d6a9083d30dffa4a4"
+        },
+        {
+          "path": "public/images/home-services/crm-hygiene-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 600,
+          "bytes": 20040,
+          "sha256": "15a39e96406123c9e375d024fa1e27b2ab19a6cdff8b5d2e890454c8249ed7c2"
+        },
+        {
+          "path": "public/images/home-services/crm-hygiene-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 600,
+          "bytes": 34604,
+          "sha256": "3946e69dea2a375ac42ce60beb199292f69e914c4947f3694e19d2968683d8c7"
+        },
+        {
+          "path": "public/images/home-services/crm-hygiene-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 800,
+          "bytes": 31028,
+          "sha256": "8f1b8470f3c35cf6943bce986757939972c3902b2386b0a8625a974328326745"
+        },
+        {
+          "path": "public/images/home-services/crm-hygiene-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 800,
+          "bytes": 51318,
+          "sha256": "79d331501c09860e7b0a49ded421d567183e31d663873fa55c6b4b410f5d40b3"
+        }
+      ]
+    },
+    {
+      "key": "service-crm-hygiene",
+      "usage": "Service detail hero: CRM hygiene",
+      "canonical": "https://unsplash.com/photos/m_cF-w5K3Xw",
+      "creator": "Lukas Blazek",
+      "creatorProfile": "https://unsplash.com/@goumbik",
+      "scene": "Professional auditing graphical reporting on a laptop",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+        "downloadUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1600,
+        "format": "JPEG",
+        "bytes": 484955,
+        "sha256": "aa52c1a25fc8f9472ff0be4baa5395e2b19048516f672962b90d40b5691c2366"
+      },
+      "crop": {
+        "ratio": "3:2",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/service-heroes/crm-hygiene-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 26908,
+          "sha256": "efe573553a139c77d9a0cbf6b68b844b60f8f27341e41276d16c55e2c0e79f51"
+        },
+        {
+          "path": "public/images/service-heroes/crm-hygiene-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 44470,
+          "sha256": "ba29c386dbc40676b14488e3b1322f5b6d2b75e976b80558010af4dd0ca973af"
+        },
+        {
+          "path": "public/images/service-heroes/crm-hygiene-1600.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 52509,
+          "sha256": "45700dab1d0bda52fc17835083ddd0bf0ffba92c3599394525dc6cd37fc64573"
+        },
+        {
+          "path": "public/images/service-heroes/crm-hygiene-1600.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 84278,
+          "sha256": "8f8af2c81ec51a3dfd82394dcbdf7be40fd2d949e6ee26b0ad15901c08ae0c71"
+        },
+        {
+          "path": "public/images/service-heroes/crm-hygiene-2400.avif",
+          "format": "avif",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 99111,
+          "sha256": "e3dbbeb1c085dd5fcad4d1fe84944e0a0703b49123cf9a90108a88f246f4e7cf"
+        },
+        {
+          "path": "public/images/service-heroes/crm-hygiene-2400.webp",
+          "format": "webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 162842,
+          "sha256": "aef2c9dcb412f9891dc6f68d0793b02026691ad91d5898b720c00c670324ca80"
+        }
+      ]
+    },
+    {
+      "key": "home-meeting-coordination",
+      "usage": "Homepage service thumbnail: Meeting coordination",
+      "canonical": "https://unsplash.com/photos/Oalh2MojUuk",
+      "creator": "Jason Goodman",
+      "creatorProfile": "https://unsplash.com/@jasongoodman_youxventures",
+      "scene": "Small team in an active office discussion around a shared table",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1521737711867-e3b97375f902",
+        "downloadUrl": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 3598,
+        "format": "JPEG",
+        "bytes": 2015639,
+        "sha256": "3eeaad1a1b841d2c9859c149e7cd380a271412536b1b93f0eedad82ba92f8d28"
+      },
+      "crop": {
+        "ratio": "8:5",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/home-services/meeting-coordination-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 400,
+          "bytes": 10903,
+          "sha256": "718cf88c4f75300b39771132f86386e46054e07cf22e9cc5dd736291e41cc4be"
+        },
+        {
+          "path": "public/images/home-services/meeting-coordination-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 19238,
+          "sha256": "f07b6802cae7f0cffcee3da65284ee854afb599281a0a577c2076734526714db"
+        },
+        {
+          "path": "public/images/home-services/meeting-coordination-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 600,
+          "bytes": 18845,
+          "sha256": "2410b025e09ebe276c0234a117c0e0824f64ab7fecc84f32e74c61e0578ba2a2"
+        },
+        {
+          "path": "public/images/home-services/meeting-coordination-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 600,
+          "bytes": 33468,
+          "sha256": "5eae0fddb12d5dcaef7982ec0f7c6e69f8710660a14c34ba8d503d9abe18e151"
+        },
+        {
+          "path": "public/images/home-services/meeting-coordination-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 800,
+          "bytes": 28605,
+          "sha256": "1e58d0162e6b25a3443d840c7e8b91e6af60d8d7329132470a68c9f1e0ed7f59"
+        },
+        {
+          "path": "public/images/home-services/meeting-coordination-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 800,
+          "bytes": 57322,
+          "sha256": "c09efbd786e65b170ea129612ff1546beaa1c44a3ce1402e168a7a1071690321"
+        }
+      ]
+    },
+    {
+      "key": "service-meeting-coordination",
+      "usage": "Service detail hero: Meeting coordination",
+      "canonical": "https://unsplash.com/photos/npxXWgQ33ZQ",
+      "creator": "Glenn Carstens-Peters",
+      "creatorProfile": "https://unsplash.com/@glenncarstenspeters",
+      "scene": "Open planner and pen arranged for calendar coordination",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe",
+        "downloadUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1604,
+        "format": "JPEG",
+        "bytes": 336280,
+        "sha256": "dcad5bf2b2e34ad1f91a2b472354c35708d8bb95abaf3b9f16a9804553d85eaf"
+      },
+      "crop": {
+        "ratio": "3:2",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/service-heroes/meeting-coordination-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 20190,
+          "sha256": "551b602c324256832701f583fbbb6b1e41ca333ddd592a5b89a5aeac01021520"
+        },
+        {
+          "path": "public/images/service-heroes/meeting-coordination-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 33746,
+          "sha256": "597d84fffefdb2b88d0df56129206a7f818c532e90d3967b4ec5493a7627b0bf"
+        },
+        {
+          "path": "public/images/service-heroes/meeting-coordination-1600.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 38300,
+          "sha256": "b3f9835c36ef2f36cbff73f55b8cedc48315562693e413aa2a0f1ff178d15032"
+        },
+        {
+          "path": "public/images/service-heroes/meeting-coordination-1600.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 62732,
+          "sha256": "3335a81fc8092413c0965c9802ca0d2b02891e6fd15fa0d859237a4d61941a92"
+        },
+        {
+          "path": "public/images/service-heroes/meeting-coordination-2400.avif",
+          "format": "avif",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 66615,
+          "sha256": "997a0ad5ec9fd88e19bbf79014eee8e817e45950092f752acc8b879230877140"
+        },
+        {
+          "path": "public/images/service-heroes/meeting-coordination-2400.webp",
+          "format": "webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 101498,
+          "sha256": "061a30eb24bc4f2772a84e35997d6422bfd5299665d941072b44c127d396aa48"
+        }
+      ]
+    },
+    {
+      "key": "home-sequence-quality-review",
+      "usage": "Homepage service thumbnail: Sequence quality review",
+      "canonical": "https://unsplash.com/photos/3V8xo5Gbusk",
+      "creator": "Kaleidico",
+      "creatorProfile": "https://unsplash.com/@kaleidico",
+      "scene": "Team reviewing a visual workflow at a wall board",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9",
+        "downloadUrl": "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1800,
+        "format": "JPEG",
+        "bytes": 585619,
+        "sha256": "246df734a4e88dc0be070af45cb1307d694bd73981d15890d7025382c896a63e"
+      },
+      "crop": {
+        "ratio": "8:5",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/home-services/sequence-quality-review-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 400,
+          "bytes": 14275,
+          "sha256": "12c42e797ebd10914c9337aaa63ed5e949ffaeffb49f7469bf66fc875972976a"
+        },
+        {
+          "path": "public/images/home-services/sequence-quality-review-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 23128,
+          "sha256": "9180bbb7b43332a4066549af232c6dd7996e41e69c79d1b982cfaa8ebc5e7b24"
+        },
+        {
+          "path": "public/images/home-services/sequence-quality-review-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 600,
+          "bytes": 23694,
+          "sha256": "8eb3cee1e1970550a9feb4f36bcfe31d945e771f7ba8c9d5b12d9635524b1456"
+        },
+        {
+          "path": "public/images/home-services/sequence-quality-review-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 600,
+          "bytes": 38072,
+          "sha256": "098a1b3f9ba288961ed257b8d6552ab224e794045aa30b8660b2cd38b61392ae"
+        },
+        {
+          "path": "public/images/home-services/sequence-quality-review-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 800,
+          "bytes": 33637,
+          "sha256": "85c444d2e0fdba0473d1a6f06e5d300544aa19e5a399428e9e27d102b472998d"
+        },
+        {
+          "path": "public/images/home-services/sequence-quality-review-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 800,
+          "bytes": 52880,
+          "sha256": "98e34ca9a46ad61575d2264c07d57d887a6781dbd6cdd125b271b5a615be6482"
+        }
+      ]
+    },
+    {
+      "key": "service-sequence-quality-review",
+      "usage": "Service detail hero: Sequence quality review",
+      "canonical": "https://unsplash.com/photos/qWwpHwip31M",
+      "creator": "Álvaro Reyes",
+      "creatorProfile": "https://unsplash.com/@alvarordesign",
+      "scene": "Professionals inspecting an ordered workflow of sticky notes",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1531403009284-440f080d1e12",
+        "downloadUrl": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1600,
+        "format": "JPEG",
+        "bytes": 371833,
+        "sha256": "678857e3a4ef3c6273acebf9812dac46d154e6e35974f94d28a360d0c4b48b00"
+      },
+      "crop": {
+        "ratio": "3:2",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/service-heroes/sequence-quality-review-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 20989,
+          "sha256": "a6c1e855037c04ad05dab542000cbe81db22979d2a9742acdcd29ce3a3eb2735"
+        },
+        {
+          "path": "public/images/service-heroes/sequence-quality-review-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 32612,
+          "sha256": "eb78f4f8687222138e9dffc4e47fab6e6372db37e9d40d2c3e31432a6ff52207"
+        },
+        {
+          "path": "public/images/service-heroes/sequence-quality-review-1600.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 41136,
+          "sha256": "2a039a81d9172cd0a5124a332ba3971b1e651fc6574285365baf30d4f79c3127"
+        },
+        {
+          "path": "public/images/service-heroes/sequence-quality-review-1600.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 64640,
+          "sha256": "7f8de01832f0f6be3bbc52476ebff539d7e6c174a511b60eefaf8c106346a929"
+        },
+        {
+          "path": "public/images/service-heroes/sequence-quality-review-2400.avif",
+          "format": "avif",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 81753,
+          "sha256": "ec08a3e33f2da7ac865f88468b252fdb52855b9a0c3047b3988bc9cbdb7daa1a"
+        },
+        {
+          "path": "public/images/service-heroes/sequence-quality-review-2400.webp",
+          "format": "webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 121648,
+          "sha256": "092ad7621511638ea556b47f8c71a42bf5b9c515f59799366435e9280d3bea9f"
+        }
+      ]
+    },
+    {
+      "key": "blog-hero",
+      "usage": "Blog index hero",
+      "canonical": "https://unsplash.com/photos/pUAM5hPaCRI",
+      "creator": "JESHOOTS.COM",
+      "creatorProfile": "https://unsplash.com/@jeshoots",
+      "scene": "Practical workflow planning in a weekly planner beside a laptop and phone",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+        "downloadUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1597,
+        "format": "JPEG",
+        "bytes": 244368,
+        "sha256": "50e5ff79826803d77f941534540839f7cf702e32a240214672542b7847cff457"
+      },
+      "crop": {
+        "ratio": "3:2",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/heroes/blog-workflow-planning-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 15880,
+          "sha256": "f9625949f19cc3b82d666acca5289087f567bbfba5d99ee22381080cdf67cc99"
+        },
+        {
+          "path": "public/images/heroes/blog-workflow-planning-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 26558,
+          "sha256": "65606b73b117fe7304e9711f147cdb5b15fb91c25cca3795aadefb393fd2d85f"
+        },
+        {
+          "path": "public/images/heroes/blog-workflow-planning-1600.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 28043,
+          "sha256": "ea169d2d102d4eeeb2eb5ca340968bbeae231cb01e11db42656976eb4f94bff6"
+        },
+        {
+          "path": "public/images/heroes/blog-workflow-planning-1600.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 49026,
+          "sha256": "39da45316431fc1eab6255b48e406a0a012985f31717441bf2bac4abbc2b9a80"
+        },
+        {
+          "path": "public/images/heroes/blog-workflow-planning-2400.avif",
+          "format": "avif",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 43865,
+          "sha256": "85d87e1416fd11d7a673fafcf851d0853321efa3a70f6700c8809e73d2dab12e"
+        },
+        {
+          "path": "public/images/heroes/blog-workflow-planning-2400.webp",
+          "format": "webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 77902,
+          "sha256": "d955c00cdbb1e6b65ac8f336616b1c4c744ae6dd1d8264672e3b7a9e18993512"
+        }
+      ]
+    },
+    {
+      "key": "research-hero",
+      "usage": "Research index hero",
+      "canonical": "https://unsplash.com/photos/qwtCeJ5cLYs",
+      "creator": "Stephen Dawson",
+      "creatorProfile": "https://unsplash.com/@dawson2406",
+      "scene": "Analyst reviewing reporting dashboards at a workstation",
+      "source": {
+        "provider": "Unsplash",
+        "assetUrl": "https://images.unsplash.com/photo-1556157382-97eda2d62296",
+        "downloadUrl": "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.1.0&auto=format&fit=max&w=2400&q=90&fm=jpg",
+        "width": 2400,
+        "height": 1600,
+        "format": "JPEG",
+        "bytes": 607495,
+        "sha256": "1534f35bd2420002e78c725e800063bfdb0d80845ee378983e52cbf87205b183"
+      },
+      "crop": {
+        "ratio": "3:2",
+        "position": "attention"
+      },
+      "outputs": [
+        {
+          "path": "public/images/heroes/research-reporting-analysis-960.avif",
+          "format": "avif",
+          "width": 960,
+          "height": 640,
+          "bytes": 35506,
+          "sha256": "e81029893c4a35a35cf546720bbdde4849061cc8166de0b0aa97d4f813765398"
+        },
+        {
+          "path": "public/images/heroes/research-reporting-analysis-960.webp",
+          "format": "webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 60188,
+          "sha256": "e348e118cb993f9eebd2740ec3e4dbcda4a95211dece571c881526249d9da412"
+        },
+        {
+          "path": "public/images/heroes/research-reporting-analysis-1600.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 70818,
+          "sha256": "a6e19183ddebcdfb2800af78cc8302498b743a501bc7c387a4b61c26fd483194"
+        },
+        {
+          "path": "public/images/heroes/research-reporting-analysis-1600.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 116536,
+          "sha256": "7673d454e7a421665a9e114985e5ce4eee19aa80eb94f14ac1ca057b67820712"
+        },
+        {
+          "path": "public/images/heroes/research-reporting-analysis-2400.avif",
+          "format": "avif",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 143694,
+          "sha256": "9002a5165953df27e263436c71daf3a7b88a1fe8969e7055af7ea28fa50bc846"
+        },
+        {
+          "path": "public/images/heroes/research-reporting-analysis-2400.webp",
+          "format": "webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 246242,
+          "sha256": "5245bc5ba2a0ce2b547a9b0d94b12f2723391dc3a82bc738f7e6bf039b2bdc84"
+        }
+      ]
+    }
+  ]
+}

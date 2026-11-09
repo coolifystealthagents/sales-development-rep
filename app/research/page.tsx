@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { researchPosts } from '@/lib/content';
 import { TopicVisual } from '@/components/TopicVisual';
 import { BlogCard } from '@/components/BlogCard';
+import { HeroPhoto } from '@/components/HeroPhoto';
 
 export const metadata: Metadata = {
   title: 'Research',
@@ -17,7 +18,7 @@ export default function ResearchPage() {
         <h1>Evidence for more inspectable pipeline operations.</h1>
         <p>Source-led briefs that turn public guidance and operating patterns into questions your revenue team can test.</p>
       </div>
-      <TopicVisual title="Sales development research library" intake="SOURCE DATA" process="METHOD" output="FINDING"/>
+      <HeroPhoto role="research" alt="Person seated at a computer with dashboards on screen"/>
     </header>
     <section className="content-wrap">
       <div className="index-intro">
