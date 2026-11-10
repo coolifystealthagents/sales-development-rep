@@ -114,7 +114,7 @@ export const november09BlogPosts: readonly BlogPost[] = [
         "a": "A clear next step and the buyer's own words."
       }
     ],
-    "internalService": "/services/sales-development",
+    "internalService": "/services/crm-hygiene",
     "internalSibling": "/blog/set-a-lead-response-standard-the-team-can-measure",
     "source": {
       "label": "U.S. Small Business Administration",

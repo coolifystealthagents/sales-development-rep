@@ -31,3 +31,12 @@
 }
 .mobile-toc{display:none}
 @media(max-width:900px){.mobile-toc{display:block;position:static;margin:0 0 1.5rem;padding:1rem;border:1px solid var(--ink);background:white}.mobile-toc-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;min-height:48px;border:0;background:transparent;font-weight:900;cursor:pointer}.mobile-toc nav{max-height:55vh;overflow:auto;padding-top:.5rem}.mobile-toc a{display:block;padding:.5rem 0;font-size:.9rem;text-decoration:underline}}
+
+/* Reserve independent rows for the narrow article ToC, prose, and companion copy. */
+@media(max-width:900px){
+  .article-layout{grid-template-columns:minmax(0,1fr)}
+  .mobile-toc{grid-column:1;grid-row:1;min-width:0}
+  .article-layout>.prose{grid-column:1;grid-row:2;min-width:0}
+  .article-sidebar{grid-column:1;grid-row:3;width:100%;min-width:0;max-height:none}
+  .sidebar-scroll{max-height:none;overflow:visible}
+}
