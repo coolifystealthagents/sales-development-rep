@@ -11,6 +11,8 @@
   aspect-ratio: 953 / 540;
   display: block;
   height: auto;
+  margin-inline: auto;
+  max-width: 635px;
   object-fit: contain;
   object-position: center;
   position: static;
