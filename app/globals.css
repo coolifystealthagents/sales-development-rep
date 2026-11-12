@@ -16,7 +16,12 @@
 .service-detail>.page-hero{padding-block:clamp(2.75rem,4vw,4rem)}
 .service-detail>.service-intro{padding-block:clamp(3rem,4.5vw,4.5rem)}
 .service-detail>.service-prose{padding-top:clamp(3rem,4.5vw,4.5rem);padding-bottom:clamp(4.5rem,6vw,6rem)}
-.service-detail .service-prose>section,.service-detail .service-prose>.service-two-col{margin-bottom:clamp(3.5rem,5vw,4.5rem)}
+.service-detail .service-prose>section,.service-detail .service-prose>.service-two-col{margin-bottom:clamp(3rem,4vw,4rem)}
+.service-detail .service-prose h2{font-size:clamp(2rem,3vw,3.5rem);line-height:1.02;max-width:14ch}
+.service-detail .service-prose>section>.signal-list{max-width:46rem}
+.service-detail .faq{max-width:50rem}
+.service-detail>.closing{padding-inline:max(5vw,calc((100vw - 1600px)/2 + 5rem))}
+@media(max-width:600px){.service-detail .service-two-col{row-gap:2.5rem}}
 @media(max-width:600px){.home-service-photo{width:calc(100% + 2.4rem);margin:-1.2rem -1.2rem .7rem}}
 
 /* 2026-11-05 batch: compact article and inline mobile ToC */
