@@ -70,11 +70,11 @@ export const october27ResearchBatch: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "UK Information Commissioner Office \u2014 organisations",
+        "label": "UK Information Commissioner Office: organisations",
         "url": "https://ico.org.uk/for-organisations/"
       },
       {
-        "label": "Federal Trade Commission \u2014 business guidance",
+        "label": "Federal Trade Commission: business guidance",
         "url": "https://www.ftc.gov/business-guidance"
       },
       {
@@ -82,7 +82,7 @@ export const october27ResearchBatch: readonly ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration \u2014 manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -157,15 +157,15 @@ export const october27ResearchBatch: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration \u2014 manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "UK Information Commissioner Office \u2014 organisations",
+        "label": "UK Information Commissioner Office: organisations",
         "url": "https://ico.org.uk/for-organisations/"
       },
       {
-        "label": "Federal Trade Commission \u2014 business guidance",
+        "label": "Federal Trade Commission: business guidance",
         "url": "https://www.ftc.gov/business-guidance"
       },
       {
@@ -244,7 +244,7 @@ export const october27ResearchBatch: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "Federal Trade Commission \u2014 business guidance",
+        "label": "Federal Trade Commission: business guidance",
         "url": "https://www.ftc.gov/business-guidance"
       },
       {
@@ -252,11 +252,11 @@ export const october27ResearchBatch: readonly ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration \u2014 manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "UK Information Commissioner Office \u2014 organisations",
+        "label": "UK Information Commissioner Office: organisations",
         "url": "https://ico.org.uk/for-organisations/"
       }
     ]
@@ -335,15 +335,15 @@ export const october27ResearchBatch: readonly ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration \u2014 manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "UK Information Commissioner Office \u2014 organisations",
+        "label": "UK Information Commissioner Office: organisations",
         "url": "https://ico.org.uk/for-organisations/"
       },
       {
-        "label": "Federal Trade Commission \u2014 business guidance",
+        "label": "Federal Trade Commission: business guidance",
         "url": "https://www.ftc.gov/business-guidance"
       }
     ]
@@ -418,7 +418,7 @@ export const october27ResearchBatch: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "Federal Trade Commission \u2014 business guidance",
+        "label": "Federal Trade Commission: business guidance",
         "url": "https://www.ftc.gov/business-guidance"
       },
       {
@@ -426,11 +426,11 @@ export const october27ResearchBatch: readonly ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration \u2014 manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "UK Information Commissioner Office \u2014 organisations",
+        "label": "UK Information Commissioner Office: organisations",
         "url": "https://ico.org.uk/for-organisations/"
       }
     ]
