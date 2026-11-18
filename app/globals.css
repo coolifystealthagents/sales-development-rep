@@ -15,13 +15,15 @@
 .services-page>.service-argument{padding-block:clamp(3rem,4.5vw,4.5rem)}
 .service-detail>.page-hero{padding-block:clamp(2.75rem,4vw,4rem)}
 .service-detail>.service-intro{padding-block:clamp(3rem,4.5vw,4.5rem)}
-.service-detail>.service-prose{padding-top:clamp(3rem,4.5vw,4.5rem);padding-bottom:clamp(4.5rem,6vw,6rem)}
-.service-detail .service-prose>section,.service-detail .service-prose>.service-two-col{margin-bottom:clamp(3rem,4vw,4rem)}
+.service-detail>.service-prose{width:100%;max-width:none;padding-inline:max(5vw,calc((100vw - 1600px)/2 + 5rem));padding-top:clamp(3rem,4.5vw,4.5rem);padding-bottom:clamp(4.5rem,6vw,6rem)}
+.service-detail .service-prose>.service-detail-row{margin-bottom:clamp(3rem,4vw,4rem)}
+.service-detail-row{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);column-gap:8vw;align-items:start}
+.service-detail .service-section-heading,.service-detail .service-section-content{min-width:0}
 .service-detail .service-prose h2{font-size:clamp(2rem,3vw,3.5rem);line-height:1.02;max-width:14ch}
-.service-detail .service-prose>section>.signal-list{max-width:46rem}
-.service-detail .faq{max-width:50rem}
+.service-detail .service-section-content>.signal-list{max-width:46rem}
+.service-detail .faq{max-width:none}
 .service-detail>.closing{padding-inline:max(5vw,calc((100vw - 1600px)/2 + 5rem))}
-@media(max-width:600px){.service-detail .service-two-col{row-gap:2.5rem}}
+@media(max-width:900px){.service-detail-row{grid-template-columns:minmax(0,1fr);row-gap:1.5rem}}
 @media(max-width:600px){.home-service-photo{width:calc(100% + 2.4rem);margin:-1.2rem -1.2rem .7rem}}
 
 /* 2026-11-05 batch: compact article and inline mobile ToC */
