@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 
-export type ServiceIconName = 'research' | 'list' | 'outreach' | 'crm' | 'calendar' | 'quality' | 'scope' | 'outputs' | 'inputs' | 'boundary' | 'checks' | 'questions' | 'examples' | 'related';
+export type ServiceIconName = 'research' | 'list' | 'outreach' | 'crm' | 'calendar' | 'quality' | 'scope' | 'outputs' | 'inputs' | 'boundary' | 'checks' | 'questions' | 'examples' | 'related' | 'filter' | 'expand';
 
 export const serviceIconNames: Record<string, ServiceIconName> = {
   'prospect-research': 'research',
@@ -26,6 +26,8 @@ const iconPaths: Record<ServiceIconName, ReactNode> = {
   questions: <><circle cx="12" cy="12" r="9"/><path d="M9.8 9a2.4 2.4 0 1 1 3.4 2.2c-.8.4-1.2 1-1.2 1.8M12 17h.01"/></>,
   examples: <><path d="M4 5h16v12H8l-4 4V5Z"/><path d="M8 9h8M8 13h5"/></>,
   related: <><path d="M9.5 14.5 14.5 9M7 17l-1 1a3.5 3.5 0 0 1-5-5l3-3a3.5 3.5 0 0 1 5 0M17 7l1-1a3.5 3.5 0 0 1 5 5l-3 3a3.5 3.5 0 0 1-5 0"/></>,
+  filter: <><path d="M3 5h18l-7 8v6l-4 2v-8L3 5Z"/></>,
+  expand: <><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/><path d="m3 8 6-6M21 8l-6-6M3 16l6 6M21 16l-6 6"/></>,
 };
 
 export function ServiceIcon({ name }: { name: ServiceIconName }) {
