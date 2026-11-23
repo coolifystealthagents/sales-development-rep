@@ -6,6 +6,7 @@ import { site } from '@/lib/site';
 import { serviceBySlug } from '@/lib/content';
 import { ServiceWorkflowPhoto } from '@/components/ServiceWorkflowPhoto';
 import { ArrowIcon } from '@/components/Icons';
+import { ServiceIcon, type ServiceIconName } from '@/components/ServiceIcons';
 
 export function generateStaticParams() {
   return site.services.map(({ slug }) => ({ slug }));
@@ -21,14 +22,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   } : {};
 }
 
-function DetailRow({ eyebrow, title, className, children }: {
+function DetailRow({ eyebrow, title, icon, className, children }: {
   eyebrow?: string;
   title: string;
+  icon: ServiceIconName;
   className?: string;
   children: ReactNode;
 }) {
   return <section className={`service-detail-row${className ? ` ${className}` : ''}`}>
     <div className="service-section-heading">
+      <ServiceIcon name={icon}/>
       {eyebrow && <p className="eyebrow">{eyebrow}</p>}
       <h2>{title}</h2>
     </div>
@@ -36,9 +39,15 @@ function DetailRow({ eyebrow, title, className, children }: {
   </section>;
 }
 
-function ListBlock({ title, items }: { title: string; items: string[] }) {
-  return <DetailRow title={title}>
-    <ul className="signal-list">{items.map(item => <li key={item}>{item}</li>)}</ul>
+function ListBlock({ eyebrow, title, icon, items, layout = 'list' }: {
+  eyebrow: string;
+  title: string;
+  icon: ServiceIconName;
+  items: string[];
+  layout?: 'list' | 'cards';
+}) {
+  return <DetailRow eyebrow={eyebrow} title={title} icon={icon} className={`service-list-row service-list-row-${layout}`}>
+    <ul className={`signal-list icon-list icon-list-${layout}`}>{items.map(item => <li key={item}>{item}</li>)}</ul>
   </DetailRow>;
 }
 
@@ -49,11 +58,15 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const related = service.related.map(item => serviceBySlug(item)).filter(Boolean);
 
   return <main className="service-detail">
-    <header className="page-hero split-hero">
+    <header className="page-hero split-hero service-detail-hero">
       <div>
         <p className="eyebrow">Specialist sales development role</p>
         <h1>{service.name}</h1>
         <p>{service.short}</p>
+        <div className="service-hero-fit">
+          <span>Best fit</span>
+          <p>{service.audience}</p>
+        </div>
         <Link className="button primary" href="/contact-us">Discuss this role <ArrowIcon/></Link>
       </div>
       <ServiceWorkflowPhoto slug={service.slug} variant="hero"/>
@@ -61,8 +74,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
     <section className="section service-intro">
       <div>
-        <p className="eyebrow">Audience and problem</p>
-        <h2>Where this role creates useful capacity.</h2>
+        <p className="eyebrow">Fit and operating need</p>
+        <h2>A focused role for a visible queue.</h2>
       </div>
       <div>
         <p><strong>Built for:</strong> {service.audience}</p>
@@ -71,32 +84,32 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     </section>
 
     <div className="service-prose">
-      <ListBlock title="Inputs required" items={service.inputs}/>
-      <ListBlock title="Scope of work" items={service.tasks}/>
+      <ListBlock eyebrow="Scope of work" title="Work this role can own." icon="scope" items={service.tasks} layout="cards"/>
+      <ListBlock eyebrow="Reviewable output" title="What your team receives." icon="outputs" items={service.deliverables} layout="cards"/>
+      <ListBlock eyebrow="Starting inputs" title="What to provide at the start." icon="inputs" items={service.inputs}/>
 
-      <DetailRow eyebrow="Working sequence" title="A workflow the owner can inspect.">
+      <DetailRow eyebrow="Working sequence" title="A workflow the owner can inspect." icon="checks" className="service-workflow-row">
         <ol className="workflow-list">{service.workflow.map(step => <li key={step}>{step}</li>)}</ol>
       </DetailRow>
 
-      <ListBlock title="Deliverables" items={service.deliverables}/>
-      <ListBlock title="Owner decision boundaries" items={service.boundaries}/>
-      <ListBlock title="Quality controls" items={service.qualityControls}/>
+      <ListBlock eyebrow="Approval boundary" title="Decisions that stay with your team." icon="boundary" items={service.boundaries}/>
+      <ListBlock eyebrow="Quality checks" title="How the work stays reviewable." icon="quality" items={service.qualityControls} layout="cards"/>
 
-      <DetailRow eyebrow="Operating examples" title="How the boundary works in practice.">
+      <DetailRow eyebrow="Operating examples" title="How the boundary works in practice." icon="examples">
         <div className="scenario-grid">{service.scenarios.map(scenario => <article key={scenario.title}>
           <h3>{scenario.title}</h3>
           <p>{scenario.body}</p>
         </article>)}</div>
       </DetailRow>
 
-      <DetailRow eyebrow="Role questions" title="Frequently asked questions" className="faq">
+      <DetailRow eyebrow="Role questions" title="Frequently asked questions" icon="questions" className="faq service-detail-faq">
         {service.faq.map(item => <details key={item.q}>
           <summary>{item.q}</summary>
           <p>{item.a}</p>
         </details>)}
       </DetailRow>
 
-      <DetailRow eyebrow="Related services" title="Connect the adjacent handoffs.">
+      <DetailRow eyebrow="Related services" title="Connect the adjacent handoffs." icon="related">
         <div className="related-grid">{related.map(item => item && <Link key={item.slug} href={`/services/${item.slug}`}>
           <h3>{item.name}</h3>
           <p>{item.short}</p>
