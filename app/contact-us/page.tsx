@@ -51,6 +51,10 @@ export default function ContactPage() {
               <div><span>Conversation</span><strong>30 minutes with a staffing lead</strong></div>
               <div><span>Bring</span><strong>One queue, its owner, and known exceptions</strong></div>
             </div>
+            <div className="sg-contact-direct">
+              <span>Prefer email?</span>
+              <a href="mailto:hello@salesdevelopmentrep.com">hello@salesdevelopmentrep.com</a>
+            </div>
           </div>
 
           <div className="sg-form-card" id="brief">
