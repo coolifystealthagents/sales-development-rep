@@ -1,3 +1,26 @@
+.services-page .services-faq {
+  width: 100%;
+  max-width: none;
+}
+
+.services-page .services-faq-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  width: 100%;
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
+.services-page .services-faq .section-heading {
+  max-width: none;
+  text-align: center;
+}
+
+.services-page .services-faq details {
+  min-width: 0;
+  text-align: left;
+}
+
 .services-page .services-team-band {
   align-items: center;
 }
