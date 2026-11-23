@@ -1,0 +1,691 @@
+/* ==========================================================================
+   Dedicated service pages — service dossier
+   Scoped to .service-detail so the rest of the site is untouched.
+   ========================================================================== */
+
+.service-detail {
+  background: var(--canvas);
+}
+
+/* Dossier wrapper --------------------------------------------------------- */
+.service-detail .service-dossier {
+  position: relative;
+}
+
+/* Hero flow line ----------------------------------------------------------- */
+.service-detail .service-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 1.15rem 0 1.5rem;
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.service-detail .service-flow span {
+  padding: 0.36rem 0.55rem;
+  border: 1px solid var(--ink);
+  background: #fffdf8;
+}
+
+.service-detail .service-flow span:not(:last-child)::after {
+  content: "→";
+  margin-left: 0.45rem;
+  color: var(--primary);
+  font-weight: 900;
+}
+
+/* Snapshot band ------------------------------------------------------------ */
+.service-detail .service-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  background: var(--ink);
+  color: #fff;
+  border-bottom: 1px solid var(--ink);
+}
+
+.service-detail .service-facts > div {
+  min-width: 0;
+  padding: 1.05rem 1.35rem 1.15rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.service-detail .service-facts > div:first-child {
+  border-left: 0;
+}
+
+.service-detail .service-facts span {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--accent);
+  font-size: 0.6rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.service-detail .service-facts strong {
+  display: block;
+  color: #f6efe2;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.42;
+}
+
+/* Sticky rail -------------------------------------------------------------- */
+.service-detail .service-rail {
+  position: sticky;
+  top: var(--header);
+  z-index: 60;
+  background: rgba(255, 248, 238, 0.96);
+  border-bottom: 1px solid var(--ink);
+  backdrop-filter: blur(10px);
+}
+
+.service-detail .service-rail-inner {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 max(5vw, calc((100vw - 1600px) / 2 + 5rem));
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.service-detail .service-rail-inner::-webkit-scrollbar {
+  display: none;
+}
+
+.service-detail .service-rail a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.95rem 0.85rem;
+  border-bottom: 3px solid transparent;
+  color: var(--ink);
+  font-size: 0.63rem;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.service-detail .service-rail a:hover,
+.service-detail .service-rail a:focus-visible {
+  border-bottom-color: var(--primary);
+  color: var(--primary);
+}
+
+.service-detail .service-rail .rail-cta {
+  margin-left: auto;
+  padding: 0.62rem 1rem;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: #fff;
+}
+
+.service-detail .service-rail .rail-cta:hover,
+.service-detail .service-rail .rail-cta:focus-visible {
+  border-color: var(--primary);
+  background: var(--primary);
+  color: #fff;
+}
+
+/* Body --------------------------------------------------------------------- */
+.service-detail .service-body {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: clamp(2.25rem, 3.6vw, 3.5rem) 5vw clamp(3.5rem, 5vw, 5rem);
+}
+
+.service-detail .service-block {
+  margin: 0 0 1.15rem;
+  border: 1px solid var(--ink);
+  background: #fffdf8;
+}
+
+.service-detail .service-block-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  align-items: end;
+  padding: 1.35rem 1.6rem 1.4rem;
+  border-bottom: 1px solid var(--ink);
+}
+
+.service-detail .service-block-head h2 {
+  max-width: 22ch;
+  margin: 0;
+  font-size: clamp(1.55rem, 2.5vw, 2.35rem);
+  line-height: 1;
+}
+
+.service-detail .service-block-head > p {
+  max-width: 46ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.62;
+}
+
+.service-detail .service-block-body {
+  padding: clamp(1.2rem, 2.2vw, 1.7rem) 1.6rem clamp(1.4rem, 2.4vw, 1.9rem);
+}
+
+/* Intro -------------------------------------------------------------------- */
+.service-detail .service-intro-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: start;
+}
+
+.service-detail .service-intro-copy p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.68;
+}
+
+.service-detail .service-intro-copy p:first-child {
+  color: var(--ink);
+  font-size: 1.02rem;
+}
+
+/* Lists -------------------------------------------------------------------- */
+.service-detail .service-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(1.5rem, 3.5vw, 2.8rem);
+  align-items: start;
+}
+
+.service-detail .service-two-col--split {
+  align-items: stretch;
+}
+
+.service-detail .dossier-list h3,
+.service-detail .service-quality h3 {
+  position: relative;
+  margin: 0 0 0.55rem;
+  padding-top: 0.85rem;
+  font-family: var(--display);
+  font-size: 1.02rem;
+  letter-spacing: -0.01em;
+}
+
+.service-detail .dossier-list h3::before,
+.service-detail .service-quality h3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background: var(--primary);
+}
+
+.service-detail .dossier-list .signal-list {
+  margin: 0;
+}
+
+.service-detail .dossier-list .signal-list li {
+  padding: 0.7rem 0;
+  color: #2c2a2e;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.service-detail .dossier-list .signal-list li:first-child {
+  border-top: 1px solid var(--rule);
+}
+
+.service-detail .dossier-list--gate {
+  padding: 1.1rem 1.2rem 1.25rem;
+  background: var(--ink);
+  color: #fff;
+}
+
+.service-detail .dossier-list--gate h3 {
+  margin-bottom: 0.35rem;
+  color: #fff;
+  padding-top: 0.7rem;
+}
+
+.service-detail .dossier-list--gate h3::before {
+  background: var(--accent);
+}
+
+.service-detail .dossier-list--gate .signal-list li {
+  color: #e5ddcf;
+  font-size: 0.83rem;
+  border-bottom-color: rgba(255, 255, 255, 0.18);
+}
+
+.service-detail .dossier-list--gate .signal-list li:first-child {
+  border-top-color: rgba(255, 255, 255, 0.18);
+}
+
+.service-detail .dossier-list--gate .signal-list li::before {
+  color: var(--accent);
+}
+
+/* Workflow ----------------------------------------------------------------- */
+.service-detail .service-block--ink {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+
+.service-detail .service-block--ink .service-block-head {
+  border-bottom-color: rgba(255, 255, 255, 0.22);
+}
+
+.service-detail .service-block--ink .eyebrow {
+  color: var(--accent);
+}
+
+.service-detail .service-block--ink h2 {
+  color: #fff;
+}
+
+.service-detail .service-block--ink .service-block-head > p {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.service-detail .service-block--ink .workflow-list {
+  gap: 0.7rem;
+}
+
+.service-detail .service-block--ink .workflow-list li {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: #1e1d21;
+  color: #f2ece1;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.service-detail .service-block--ink .workflow-list li::before {
+  color: var(--accent);
+}
+
+/* Quality controls --------------------------------------------------------- */
+.service-detail .service-quality {
+  padding: 1.15rem 1.6rem 1.5rem;
+  border-top: 1px solid var(--ink);
+  background: #f7ecda;
+}
+
+.service-detail .service-quality ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.55rem 2.4rem;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service-detail .service-quality li {
+  position: relative;
+  padding-left: 1.5rem;
+  color: #2c2a2e;
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.service-detail .service-quality li::before {
+  content: "✓";
+  position: absolute;
+  top: -0.05rem;
+  left: 0;
+  color: var(--primary);
+  font-weight: 900;
+}
+
+/* Scenarios ---------------------------------------------------------------- */
+.service-detail .scenario-grid {
+  gap: 0.9rem;
+}
+
+.service-detail .scenario-grid article {
+  position: relative;
+  border: 1px solid var(--ink);
+  border-top: 3px solid var(--primary);
+  background: #fff;
+  padding: 1.15rem 1.2rem 1.25rem;
+}
+
+.service-detail .scenario-grid h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1rem;
+}
+
+.service-detail .scenario-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+/* FAQ ---------------------------------------------------------------------- */
+.service-detail .service-faq {
+  display: grid;
+  grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  padding: clamp(1.4rem, 2.6vw, 2rem) 1.6rem clamp(1.6rem, 3vw, 2.2rem);
+}
+
+.service-detail .service-faq-head h2 {
+  max-width: 12ch;
+  margin: 0 0 0.7rem;
+  font-size: clamp(1.55rem, 2.4vw, 2.2rem);
+  line-height: 1;
+}
+
+.service-detail .service-faq-head > p:not(.eyebrow) {
+  max-width: 38ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.service-detail .service-faq .faq {
+  max-width: none;
+}
+
+.service-detail .service-faq .faq details {
+  border-top: 1px solid var(--ink);
+  padding: 0.2rem 0;
+}
+
+.service-detail .service-faq .faq details:last-child {
+  border-bottom: 1px solid var(--ink);
+}
+
+.service-detail .service-faq .faq summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.95rem 0;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  list-style: none;
+}
+
+.service-detail .service-faq .faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.service-detail .service-faq .faq summary::after {
+  content: "+";
+  flex: 0 0 auto;
+  color: var(--primary);
+  font-family: var(--display);
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.service-detail .service-faq .faq details[open] summary::after {
+  content: "–";
+}
+
+.service-detail .service-faq .faq p {
+  max-width: 68ch;
+  margin: 0 0 1rem;
+  color: #3a383c;
+  font-size: 0.85rem;
+  line-height: 1.62;
+}
+
+/* Related ------------------------------------------------------------------ */
+.service-detail .related-grid--dossier {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.9rem;
+}
+
+.service-detail .related-grid--dossier > a {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--ink);
+  background: #fff;
+  padding: 0;
+  transition: background 0.2s ease;
+}
+
+.service-detail .related-grid--dossier > a:hover {
+  background: #fff7ea;
+}
+
+.service-detail .related-media {
+  position: relative;
+  border-bottom: 1px solid var(--ink);
+  background: var(--ink);
+  overflow: hidden;
+}
+
+.service-detail .related-media .home-service-photo {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  aspect-ratio: 16 / 10;
+}
+
+.service-detail .related-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem 1.05rem 1.1rem;
+}
+
+.service-detail .related-copy h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  line-height: 1.15;
+}
+
+.service-detail .related-copy p {
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
+.service-detail .related-copy .text-link {
+  margin-top: auto;
+}
+
+/* Closing ------------------------------------------------------------------ */
+.service-detail .closing {
+  padding-block: clamp(3.25rem, 6vw, 5.5rem);
+}
+
+.service-detail .closing-brief {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.2rem 0 1.6rem;
+  padding: 0;
+  list-style: none;
+}
+
+.service-detail .closing-brief li {
+  padding: 0.42rem 0.62rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #f1e9dc;
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.service-detail .closing-brief li::before {
+  content: "→";
+  margin-right: 0.4rem;
+  color: var(--accent);
+}
+
+/* Anchors ------------------------------------------------------------------ */
+.service-detail [id] {
+  scroll-margin-top: calc(var(--header) + 64px);
+}
+
+/* Responsive --------------------------------------------------------------- */
+@media (max-width: 980px) {
+  .service-detail .service-facts {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-detail .service-facts > div:nth-child(3) {
+    border-left: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .service-detail .service-facts > div:nth-child(4) {
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .service-detail .service-block-head {
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+    align-items: start;
+  }
+
+  .service-detail .service-faq {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .service-detail .related-grid--dossier {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .service-detail .service-rail-inner {
+    flex-wrap: wrap;
+    overflow: visible;
+    padding: 6px 4vw 7px;
+  }
+
+  .service-detail .service-rail a {
+    padding: 0.42rem 0.5rem;
+    border-bottom: 0;
+    font-size: 0.57rem;
+    letter-spacing: 0.1em;
+  }
+
+  .service-detail .service-rail a:hover,
+  .service-detail .service-rail a:focus-visible {
+    color: var(--primary);
+  }
+
+  .service-detail .service-rail .rail-cta {
+    display: none;
+  }
+
+  .service-detail .service-body {
+    padding: 1.1rem 4vw 2.5rem;
+  }
+
+  .service-detail .service-block {
+    margin-bottom: 0.9rem;
+  }
+
+  .service-detail .service-block-head {
+    padding: 1.1rem 1.05rem 1.15rem;
+  }
+
+  .service-detail .service-block-head h2 {
+    font-size: clamp(1.35rem, 6vw, 1.75rem);
+  }
+
+  .service-detail .service-block-body {
+    padding: 1rem 1.05rem 1.2rem;
+  }
+
+  .service-detail .service-intro-copy,
+  .service-detail .service-two-col {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .service-detail .service-quality {
+    padding: 1rem 1.05rem 1.2rem;
+  }
+
+  .service-detail .service-quality ul {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .service-detail .scenario-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-detail .service-faq {
+    padding: 1.1rem 1.05rem 1.3rem;
+  }
+
+  .service-detail .related-grid--dossier {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 430px) {
+  .service-detail .service-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .service-detail .service-facts > div {
+    display: grid;
+    grid-template-columns: 104px minmax(0, 1fr);
+    gap: 0.8rem;
+    align-items: start;
+    padding: 0.7rem 1rem;
+    border-left: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .service-detail .service-facts > div:first-child {
+    border-top: 0;
+  }
+
+  .service-detail .service-facts span {
+    margin: 0;
+    padding-top: 0.15rem;
+  }
+
+  .service-detail .service-facts strong {
+    font-size: 0.78rem;
+  }
+
+  .service-detail .service-flow span {
+    font-size: 0.56rem;
+  }
+}
+
+.service-detail .related-copy .text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  width: max-content;
+  border-bottom: 0;
+  font-size: 0.63rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.service-detail .related-copy .text-link svg {
+  display: block;
+  flex: 0 0 auto;
+  width: 12px;
+  height: 12px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+}
