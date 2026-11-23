@@ -39,6 +39,20 @@
   width: 149px;
 }
 
+.contact-page .contact-faq .contact-container {
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
+.contact-page .contact-faq .eyebrow,
+.contact-page .contact-faq h2 {
+  text-align: center;
+}
+
+.contact-page .contact-faq details {
+  text-align: left;
+}
+
 @media (max-width: 900px) {
   .contact-page .official-team-photo {
     min-height: 0;

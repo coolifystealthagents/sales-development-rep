@@ -25,7 +25,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
     "internalService": "/services/sequence-quality-review",
     "internalSibling": "/blog/outbound-sequence-review",
     "source": {
-      "label": "UK Information Commissioner Office — organisations",
+      "label": "UK Information Commissioner Office: organisations",
       "url": "https://ico.org.uk/for-organisations/"
     },
     "sections": [
@@ -108,7 +108,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
     "internalService": "/services/sequence-quality-review",
     "internalSibling": "/blog/outbound-sequence-review",
     "source": {
-      "label": "CISA — cybersecurity best practices",
+      "label": "CISA: cybersecurity best practices",
       "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
     },
     "sections": [
@@ -274,7 +274,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
     "internalService": "/services/sequence-quality-review",
     "internalSibling": "/blog/outbound-sequence-review",
     "source": {
-      "label": "UK Information Commissioner Office — organisations",
+      "label": "UK Information Commissioner Office: organisations",
       "url": "https://ico.org.uk/for-organisations/"
     },
     "sections": [
@@ -440,7 +440,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
     "internalService": "/services/sequence-quality-review",
     "internalSibling": "/blog/outbound-sequence-review",
     "source": {
-      "label": "CISA — cybersecurity best practices",
+      "label": "CISA: cybersecurity best practices",
       "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
     },
     "sections": [
@@ -523,7 +523,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
     "internalService": "/services/sequence-quality-review",
     "internalSibling": "/blog/outbound-sequence-review",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration: manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     },
     "sections": [
@@ -606,7 +606,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
     "internalService": "/services/sequence-quality-review",
     "internalSibling": "/blog/outbound-sequence-review",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration: manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     },
     "sections": [
@@ -689,7 +689,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
     "internalService": "/services/sequence-quality-review",
     "internalSibling": "/blog/outbound-sequence-review",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration: manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     },
     "sections": [
@@ -772,7 +772,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
     "internalService": "/services/sequence-quality-review",
     "internalSibling": "/blog/outbound-sequence-review",
     "source": {
-      "label": "CISA — cybersecurity best practices",
+      "label": "CISA: cybersecurity best practices",
       "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
     },
     "sections": [
@@ -938,7 +938,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
     "internalService": "/services/sequence-quality-review",
     "internalSibling": "/blog/outbound-sequence-review",
     "source": {
-      "label": "UK Information Commissioner Office — organisations",
+      "label": "UK Information Commissioner Office: organisations",
       "url": "https://ico.org.uk/for-organisations/"
     },
     "sections": [

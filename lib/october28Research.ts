@@ -70,11 +70,11 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "CISA — cybersecurity best practices",
+        "label": "CISA: cybersecurity best practices",
         "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
       },
       {
-        "label": "UK Information Commissioner Office — organisations",
+        "label": "UK Information Commissioner Office: organisations",
         "url": "https://ico.org.uk/for-organisations/"
       },
       {
@@ -82,7 +82,7 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -157,15 +157,15 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "CISA — cybersecurity best practices",
+        "label": "CISA: cybersecurity best practices",
         "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
       },
       {
-        "label": "UK Information Commissioner Office — organisations",
+        "label": "UK Information Commissioner Office: organisations",
         "url": "https://ico.org.uk/for-organisations/"
       },
       {
@@ -244,7 +244,7 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "UK Information Commissioner Office — organisations",
+        "label": "UK Information Commissioner Office: organisations",
         "url": "https://ico.org.uk/for-organisations/"
       },
       {
@@ -252,11 +252,11 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "CISA — cybersecurity best practices",
+        "label": "CISA: cybersecurity best practices",
         "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
       }
     ]
@@ -335,15 +335,15 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "CISA — cybersecurity best practices",
+        "label": "CISA: cybersecurity best practices",
         "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
       },
       {
-        "label": "UK Information Commissioner Office — organisations",
+        "label": "UK Information Commissioner Office: organisations",
         "url": "https://ico.org.uk/for-organisations/"
       }
     ]
@@ -418,7 +418,7 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "UK Information Commissioner Office — organisations",
+        "label": "UK Information Commissioner Office: organisations",
         "url": "https://ico.org.uk/for-organisations/"
       },
       {
@@ -426,11 +426,11 @@ export const october28ResearchBatch: readonly ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "CISA — cybersecurity best practices",
+        "label": "CISA: cybersecurity best practices",
         "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
       }
     ]
