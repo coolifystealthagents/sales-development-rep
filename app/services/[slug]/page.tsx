@@ -119,10 +119,12 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     </div>
 
     <section className="closing">
-      <p className="eyebrow">Create a controlled first workflow</p>
-      <h2>Turn this scope into a role brief.</h2>
-      <p>Bring the queue, systems, current owner, and known exceptions.</p>
-      <Link className="button primary" href="/contact-us">Plan a consultation <ArrowIcon/></Link>
+      <div className="service-closing-inner">
+        <p className="eyebrow">Create a controlled first workflow</p>
+        <h2>Turn this scope into a role brief.</h2>
+        <p>Bring the queue, systems, current owner, and known exceptions.</p>
+        <Link className="button primary" href="/contact-us">Plan a consultation <ArrowIcon/></Link>
+      </div>
     </section>
   </main>;
 }

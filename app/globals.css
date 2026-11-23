@@ -42,6 +42,11 @@
 @media(max-width:900px){.service-detail-row{grid-template-columns:minmax(0,1fr);row-gap:1.5rem}.service-detail .icon-list-cards{grid-template-columns:1fr}.service-detail-photo{aspect-ratio:4/3}.service-hero-fit{max-width:none}}
 @media(max-width:600px){.home-service-photo{width:calc(100% + 2.4rem);margin:-1.2rem -1.2rem .7rem}.service-section-heading>.service-icon{margin-bottom:.85rem}.service-detail .icon-list li{padding:.9rem .9rem .9rem 2rem}}
 
+/* Keep shared service details legible on wide screens and usable on phones. */
+.service-detail>.service-prose{max-width:1440px;margin-inline:auto;padding-inline:clamp(1.25rem,5vw,5rem)}
+.service-detail>.closing{padding-inline:clamp(1.25rem,5vw,5rem)}
+.service-detail .service-closing-inner{width:100%;max-width:1440px;margin-inline:auto}
+
 /* 2026-11-05 batch: compact article and inline mobile ToC */
 .article-layout{grid-template-columns:minmax(0,760px) 280px;gap:32px}
 .article-sidebar{max-height:calc(100dvh - var(--header) - 24px)}
