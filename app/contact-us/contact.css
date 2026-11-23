@@ -39,6 +39,11 @@
   width: 149px;
 }
 
+.contact-page .contact-faq {
+  width: 100%;
+  max-width: none;
+}
+
 .contact-page .contact-faq .contact-container {
   max-width: 60rem;
   margin-inline: auto;
