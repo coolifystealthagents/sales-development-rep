@@ -8,6 +8,15 @@ import { ServiceWorkflowPhoto } from '@/components/ServiceWorkflowPhoto';
 import { ArrowIcon } from '@/components/Icons';
 import { ServiceIcon, type ServiceIconName } from '@/components/ServiceIcons';
 
+const workflowIconNames: Record<string, readonly [ServiceIconName, ServiceIconName, ServiceIconName, ServiceIconName]> = {
+  'prospect-research': ['inputs', 'checks', 'filter', 'related'],
+  'list-building-enrichment': ['checks', 'list', 'filter', 'outputs'],
+  'outreach-operations': ['outreach', 'checks', 'filter', 'related'],
+  'crm-hygiene': ['scope', 'checks', 'crm', 'outputs'],
+  'meeting-coordination': ['checks', 'calendar', 'outputs', 'related'],
+  'sequence-quality-review': ['scope', 'checks', 'filter', 'related'],
+};
+
 export function generateStaticParams() {
   return site.services.map(({ slug }) => ({ slug }));
 }
@@ -89,7 +98,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <ListBlock eyebrow="Starting inputs" title="What to provide at the start." icon="inputs" items={service.inputs}/>
 
       <DetailRow eyebrow="Working sequence" title="A workflow the owner can inspect." icon="checks" className="service-workflow-row">
-        <ol className="workflow-list">{service.workflow.map(step => <li key={step}>{step}</li>)}</ol>
+        <ol className="workflow-list">{service.workflow.map((step, index) => <li key={step}>
+          <ServiceIcon name={workflowIconNames[service.slug][index]}/>
+          <span>{step}</span>
+        </li>)}</ol>
       </DetailRow>
 
       <ListBlock eyebrow="Approval boundary" title="Decisions that stay with your team." icon="boundary" items={service.boundaries}/>

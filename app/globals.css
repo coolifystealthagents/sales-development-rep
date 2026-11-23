@@ -36,6 +36,10 @@
 .service-detail .icon-list-cards{grid-template-columns:repeat(2,minmax(0,1fr));max-width:none}
 .service-detail .service-workflow-row{padding-block:clamp(2rem,3vw,3rem);border-block:1px solid var(--ink)}
 .service-detail .service-workflow-row .service-icon{background:var(--ink);color:var(--canvas)}
+.service-detail .workflow-list{list-style:none;padding:0}
+.service-detail .workflow-list li{display:grid;grid-template-columns:2.75rem minmax(0,1fr);align-items:start;gap:1rem;padding:1.4rem}
+.service-detail .workflow-list li:before{content:none}
+.service-detail .workflow-list li>span{min-width:0}
 .service-detail .service-detail-faq details:first-child{border-top:1px solid var(--ink)}
 .service-detail .faq{max-width:none}
 .service-detail>.closing{padding-inline:max(5vw,calc((100vw - 1600px)/2 + 5rem))}
